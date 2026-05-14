@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сергей Иосифович Гессен — Таймлайн работ</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+body { margin: 0; padding: 0; background: #0a0a0f; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; }
+#canvas-container { width: 100vw; height: 100vh; }
+h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.3px; z-index: 10; }
+.subtitle { position: fixed; top: 40px; left: 24px; color: #8888a0; font-size: 13px; z-index: 10; }
+.legend { position: fixed; top: 70px; left: 24px; z-index: 10; display: flex; gap: 18px; flex-wrap: wrap; }
+.legend-item { display: flex; align-items: center; gap: 6px; color: #aaaab8; font-size: 12px; cursor: pointer; transition: opacity 0.2s; user-select: none; }
+.legend-item:hover { opacity: 0.7; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+.tooltip { position: fixed; background: rgba(20,20,30,0.95); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 14px 18px; pointer-events: none; opacity: 0; transition: opacity 0.15s; max-width: 320px; z-index: 100; }
+.tooltip.show { opacity: 1; }
+.tooltip-title { color: #f0f0f5; font-size: 14px; font-weight: 500; margin-bottom: 6px; line-height: 1.35; }
+.tooltip-meta { color: #666680; font-size: 11px; line-height: 1.5; }
+.tooltip-cat { display: inline-block; padding: 1px 8px; border-radius: 12px; font-size: 10px; margin-top: 6px; }
+.controls { position: fixed; bottom: 20px; right: 24px; z-index: 10; display: flex; gap: 8px; }
+.control-btn { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); color: #aaaab8; padding: 6px 14px; border-radius: 8px; font-size: 12px; cursor: pointer; transition: all 0.2s; }
+.control-btn:hover { background: rgba(255,255,255,0.1); color: #e0e0e8; }
+.active-cats { position: fixed; bottom: 20px; left: 24px; z-index: 10; color: #555570; font-size: 11px; }
+</style>
+</head>
+<body>
+<h1>Сергей Иосифович Гессен <span style="color:#666680;font-size:16px">(1887–1950)</span></h1>
+<div class="subtitle">Таймлайн 232 работ · 1909–1950 · интерактивная визуализация</div>
+
+<div class="legend" id="legend"></div>
+
+<div id="canvas-container"></div>
+
+<div class="tooltip" id="tooltip">
+  <div class="tooltip-title"></div>
+  <div class="tooltip-meta"></div>
+  <div class="tooltip-cat"></div>
+</div>
+
+<div class="controls">
+  <button class="control-btn" onclick="resetZoom()">Сбросить zoom</button>
+  <button class="control-btn" onclick="togglePlay()">▶ Автовоспроизведение</button>
+</div>
+
+<div class="active-cats" id="active-cats"></div>
+
+<script>
+// ── Данные ── (будут загружены из JSON)
+let timelineData = [];
+let filteredData = [];
+
+const categoryColors = {
+  'Философия': '#7c83fd',
+  'Педагогика': '#ff6b6b',
+  'Право и политика': '#4ecdc4',
+  'Литературоведение': '#ffe66d',
+  'Автобиография': '#a29bfe',
+  'Переводы': '#fd79a8'
+};
+
+const categoryOrder = ['Философия', 'Педагогика', 'Право и политика', 'Литературоведение', 'Автобиография', 'Переводы'];
+
+let activeCategories = new Set(categoryOrder);
+let hovered = null;
+let selectedYear = null;
+let playMode = false;
+let playYear = 1909;
+let zoom = 1;
+let panX = 0;
+let isDragging = false;
+let lastMouseX = 0;
+
+// Загрузка данных
+fetch('gessen_timeline.json')
+  .then(r => r.json())
+  .then(data => {
+    timelineData = data.filter(d => d.year <= 1950); // только прижизненные
+    filteredData = [...timelineData];
+    createLegend();
+    updateStats();
+  })
+  .catch(() => {
+    // Fallback demo data
+    timelineData = [
+      {year:1909, title:'Основные идеи философии Риккерта', category:'Философия', lang:'рус', link:'', journal:''},
+      {year:1917, title:'Политические идеи жирондистов', category:'Право и политика', lang:'рус', link:'', journal:''},
+      {year:1923, title:'Основы педагогики', category:'Педагогика', lang:'рус', link:'', journal:''},
+      {year:1930, title:'Государство и школа во Франции и Англии', category:'Педагогика', lang:'рус', link:'', journal:''},
+      {year:1935, title:'Правовое государство и социализм', category:'Право и политика', lang:'рус', link:'', journal:''},
+      {year:1937, title:'В двух веках. Жизненный отчет', category:'Автобиография', lang:'рус', link:'', journal:''},
+    ];
+    filteredData = [...timelineData];
+    createLegend();
+  });
+
+function createLegend() {
+  const el = document.getElementById('legend');
+  el.innerHTML = '';
+  categoryOrder.forEach(cat => {
+    const div = document.createElement('div');
+    div.className = 'legend-item';
+    div.innerHTML = `<div class="legend-dot" style="background:${categoryColors[cat]}"></div><span>${cat}</span>`;
+    div.onclick = () => toggleCategory(cat);
+    el.appendChild(div);
+  });
+}
+
+function toggleCategory(cat) {
+  if (activeCategories.has(cat)) {
+    if (activeCategories.size > 1) activeCategories.delete(cat);
+  } else {
+    activeCategories.add(cat);
+  }
+  filterData();
+  updateStats();
+}
+
+function filterData() {
+  filteredData = timelineData.filter(d => activeCategories.has(d.category));
+}
+
+function updateStats() {
+  const el = document.getElementById('active-cats');
+  el.textContent = `Показано: ${filteredData.length} работ · Активно категорий: ${activeCategories.size}`;
+}
+
+function resetZoom() {
+  zoom = 1;
+  panX = 0;
+  playMode = false;
+}
+
+function togglePlay() {
+  playMode = !playMode;
+  if (playMode) {
+    playYear = 1909;
+    selectedYear = null;
+  }
+}
+
+// ── P5.js ──
+function setup() {
+  const container = document.getElementById('canvas-container');
+  const c = createCanvas(container.offsetWidth, container.offsetHeight);
+  c.parent('canvas-container');
+  textFont('Segoe UI');
+}
+
+function draw() {
+  background(10, 10, 15);
+  
+  if (!filteredData.length) return;
+  
+  const margin = { top: 120, bottom: 80, left: 60, right: 40 };
+  const chartH = height - margin.top - margin.bottom;
+  const chartW = width - margin.left - margin.right;
+  
+  // Автовоспроизведение
+  if (playMode && frameCount % 3 === 0) {
+    playYear += 0.5;
+    if (playYear > 1950) playYear = 1909;
+  }
+  
+  // Основные параметры оси X
+  const yearMin = 1908;
+  const yearMax = 1951;
+  const yearRange = yearMax - yearMin;
+  const baseScale = chartW / yearRange;
+  const scale = baseScale * zoom;
+  
+  function xForYear(y) {
+    return margin.left + panX + (y - yearMin) * scale;
+  }
+  
+  // Фон сетки — годы
+  stroke(30, 30, 45);
+  strokeWeight(1);
+  for (let y = yearMin; y <= yearMax; y += 2) {
+    const x = xForYear(y);
+    if (x > margin.left && x < width - margin.right) {
+      line(x, margin.top, x, height - margin.bottom);
+    }
+  }
+  
+  // Годовые метки
+  noStroke();
+  fill(80, 80, 100);
+  textSize(10);
+  textAlign(CENTER, TOP);
+  for (let y = yearMin; y <= yearMax; y += 1) {
+    const x = xForYear(y);
+    if (x > margin.left && x < width - margin.right) {
+      if (y % 5 === 0) {
+        fill(150, 150, 170);
+        textSize(12);
+      } else {
+        fill(60, 60, 80);
+        textSize(9);
+      }
+      text(y, x, height - margin.bottom + 10);
+      // Тире
+      stroke(y % 5 === 0 ? 100 : 50, y % 5 === 0 ? 100 : 50, y % 5 === 0 ? 120 : 70);
+      strokeWeight(y % 5 === 0 ? 2 : 1);
+      line(x, height - margin.bottom, x, height - margin.bottom + 6);
+      noStroke();
+    }
+  }
+  
+  // Основная ось X
+  stroke(60, 60, 80);
+  strokeWeight(2);
+  line(margin.left, height - margin.bottom, width - margin.right, height - margin.bottom);
+  
+  // Категории полосы (Y)
+  const cats = [...activeCategories];
+  const bandH = chartH / cats.length;
+  
+  // Фон полос
+  cats.forEach((cat, i) => {
+    const y1 = margin.top + i * bandH;
+    const alpha = hovered?.category === cat ? 12 : 5;
+    fill(red(color(categoryColors[cat])), green(color(categoryColors[cat])), blue(color(categoryColors[cat])), alpha);
+    noStroke();
+    rect(margin.left, y1, chartW, bandH);
+    
+    // Название категории
+    fill(categoryColors[cat]);
+    textSize(11);
+    textAlign(LEFT, CENTER);
+    text(cat, 14, y1 + bandH/2);
+  });
+  
+  // Сбор точек — группировка по году и категории
+  const groups = {};
+  filteredData.forEach(d => {
+    const key = `${d.year}_${d.category}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(d);
+  });
+  
+  hovered = null;
+  
+  // Рисуем точки
+  Object.entries(groups).forEach(([key, items]) => {
+    const [year, cat] = key.split('_');
+    const yr = parseInt(year);
+    if (yr < yearMin || yr > yearMax) return;
+    
+    const x = xForYear(yr);
+    if (x < margin.left || x > width - margin.right) return;
+    
+    const catIdx = cats.indexOf(cat);
+    if (catIdx === -1) return;
+    
+    const bandY = margin.top + catIdx * bandH;
+    const density = items.length;
+    const maxR = min(bandH * 0.35, 18);
+    const minR = 4;
+    const r = min(maxR, minR + density * 2.5);
+    
+    const cy = bandY + bandH / 2;
+    
+    // Подсветка при наведении
+    const dist = sqrt((mouseX - x)**2 + (mouseY - cy)**2);
+    const isHover = dist < r + 4;
+    
+    if (isHover) {
+      hovered = items[0];
+      fill(categoryColors[cat]);
+      drawingContext.shadowColor = categoryColors[cat];
+      drawingContext.shadowBlur = 20;
+    } else if (playMode && abs(yr - playYear) < 1.5) {
+      fill(categoryColors[cat]);
+      drawingContext.shadowColor = categoryColors[cat];
+      drawingContext.shadowBlur = 15;
+    } else {
+      const c = color(categoryColors[cat]);
+      fill(red(c), green(c), blue(c), 180);
+      drawingContext.shadowBlur = 0;
+    }
+    
+    noStroke();
+    ellipse(x, cy, r * 2, r * 2);
+    
+    // Радиальные линии для групп
+    if (items.length > 1 && !playMode) {
+      items.forEach((item, idx) => {
+        const angle = (idx / items.length) * TWO_PI - HALF_PI;
+        const lineLen = r + 6 + idx * 3;
+        stroke(categoryColors[cat]);
+        strokeWeight(1);
+        line(x, cy, x + cos(angle)*lineLen, cy + sin(angle)*lineLen);
+      });
+    }
+    
+    // Число работ
+    if (density > 1 && r > 8) {
+      fill(255);
+      textSize(9);
+      textAlign(CENTER, CENTER);
+      text(density, x, cy);
+    }
+  });
+  
+  drawingContext.shadowBlur = 0;
+  
+  // Индикатор года при воспроизведении
+  if (playMode) {
+    const px = xForYear(playYear);
+    stroke(255, 255, 255, 80);
+    strokeWeight(1);
+    line(px, margin.top, px, height - margin.bottom);
+    fill(255);
+    textSize(12);
+    textAlign(CENTER, BOTTOM);
+    text(Math.floor(playYear), px, margin.top - 8);
+  }
+  
+  // Подсветка выбранного года
+  if (selectedYear && !playMode) {
+    const sx = xForYear(selectedYear);
+    stroke(255, 255, 255, 40);
+    strokeWeight(1);
+    line(sx, margin.top, sx, height - margin.bottom);
+  }
+  
+  // Tooltip
+  updateTooltip();
+}
+
+function updateTooltip() {
+  const tt = document.getElementById('tooltip');
+  if (hovered) {
+    tt.classList.add('show');
+    tt.querySelector('.tooltip-title').textContent = hovered.title;
+    const meta = [];
+    meta.push(`Год: ${hovered.year}`);
+    if (hovered.lang) meta.push(`Язык: ${hovered.lang}`);
+    if (hovered.journal) meta.push(`Издание: ${hovered.journal}`);
+    tt.querySelector('.tooltip-meta').textContent = meta.join(' · ');
+    const catEl = tt.querySelector('.tooltip-cat');
+    catEl.textContent = hovered.category;
+    catEl.style.background = categoryColors[hovered.category] + '30';
+    catEl.style.color = categoryColors[hovered.category];
+    
+    // Позиционирование
+    let tx = mouseX + 20;
+    let ty = mouseY + 20;
+    if (tx + 340 > width) tx = mouseX - 340;
+    if (ty + 150 > height) ty = mouseY - 150;
+    tt.style.left = tx + 'px';
+    tt.style.top = ty + 'px';
+  } else {
+    tt.classList.remove('show');
+  }
+}
+
+function mousePressed() {
+  isDragging = true;
+  lastMouseX = mouseX;
+  
+  // Клик по точке — выбрать год
+  if (hovered) {
+    selectedYear = hovered.year;
+    playMode = false;
+  }
+}
+
+function mouseDragged() {
+  if (isDragging) {
+    panX += mouseX - lastMouseX;
+    lastMouseX = mouseX;
+    
+    // Ограничение pan
+    const minPan = -(1951 - 1908) * (width - 100) / (1951 - 1908) * zoom + (width - 100);
+    panX = constrain(panX, minPan, 0);
+  }
+}
+
+function mouseReleased() {
+  isDragging = false;
+}
+
+function mouseWheel(e) {
+  const z = zoom * (e.delta > 0 ? 0.9 : 1.1);
+  zoom = constrain(z, 0.5, 10);
+  return false;
+}
+
+function windowResized() {
+  const container = document.getElementById('canvas-container');
+  resizeCanvas(container.offsetWidth, container.offsetHeight);
+}
+</script>
+</body>
+</html>
