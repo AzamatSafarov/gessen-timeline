@@ -78,7 +78,7 @@ let lastMouseX = 0;
 fetch('gessen_timeline.json')
   .then(r => r.json())
   .then(data => {
-    timelineData = data.filter(d => d.year <= 1950);
+    timelineData = data;
     filteredData = [...timelineData];
     createLegend();
     updateStats();
@@ -164,7 +164,7 @@ function draw() {
   }
   
   const yearMin = 1908;
-  const yearMax = 1951;
+  const yearMax = 1955;
   const yearRange = yearMax - yearMin;
   const baseScale = chartW / yearRange;
   const scale = baseScale * zoom;
