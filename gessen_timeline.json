@@ -1854,5 +1854,37 @@
     "lang": "рус",
     "link": "Публикация писем из лондонского архива",
     "journal": "№ 10. С. 112–136"
+  },
+  {
+    "year": 1929,
+    "title": "Развитие физики Галилея... (нем.)",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
+    "journal": "Logos (Tübingen). T. 18: 1929. z. 3. S. 339–361"
+  },
+  {
+    "year": 1949,
+    "title": "Права человека... (фр.)",
+    "category": "Экономика",
+    "lang": "фр",
+    "link": "https://www.worldcat.org/search?q=Autour+de+la+nouvelle+D%C3%A9claration+universelle+Maritain",
+    "journal": "In: Autour de la nouvelle Déclaration universelle... Ed. J. Maritain. Paris: Sagittaires. 1949. С. 90–117"
+  },
+  {
+    "year": 1954,
+    "title": "Безмятежная школа / Школа труда",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "https://www.worldcat.org/oclc/72344409",
+    "journal": "Roma: Avio. 1954"
+  },
+  {
+    "year": 1931,
+    "title": "Государство и просвещение во Франции с нач. XIX в. до наст. времени",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "",
+    "journal": "Zeitschrift für Geschichte der Erziehung und des Unterrichts. R. 21: 1931. z. 2. S. 129–153"
   }
 ]
