@@ -47,8 +47,9 @@ h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 22px; fo
 
 <div class="active-cats" id="active-cats"></div>
 
+<div class="author-footer">Собрание сочинений · С.И. Гессен (1887–1950) · Компиляция: Azamat Safarov</div>
+
 <script>
-// ── Данные ──
 let timelineData = [];
 let filteredData = [];
 
@@ -74,7 +75,6 @@ let panX = 0;
 let isDragging = false;
 let lastMouseX = 0;
 
-// Загрузка данных
 fetch('gessen_timeline.json')
   .then(r => r.json())
   .then(data => {
@@ -85,7 +85,6 @@ fetch('gessen_timeline.json')
     document.getElementById('subtitle').textContent = `Таймлайн ${timelineData.length} работ · 1909–1950 · интерактивная визуализация`;
   })
   .catch(() => {
-    // Fallback demo data
     timelineData = [
       {year:1909, title:'Основные идеи философии Риккерта', category:'Философия', lang:'рус', link:'', journal:''},
       {year:1917, title:'Политические идеи жирондистов', category:'Право и политика', lang:'рус', link:'', journal:''},
@@ -143,7 +142,6 @@ function togglePlay() {
   }
 }
 
-// ── P5.js ──
 function setup() {
   const container = document.getElementById('canvas-container');
   const c = createCanvas(container.offsetWidth, container.offsetHeight);
@@ -160,13 +158,11 @@ function draw() {
   const chartH = height - margin.top - margin.bottom;
   const chartW = width - margin.left - margin.right;
   
-  // Автовоспроизведение
   if (playMode && frameCount % 3 === 0) {
     playYear += 0.5;
     if (playYear > 1950) playYear = 1909;
   }
   
-  // Основные параметры оси X
   const yearMin = 1908;
   const yearMax = 1951;
   const yearRange = yearMax - yearMin;
@@ -177,7 +173,6 @@ function draw() {
     return margin.left + panX + (y - yearMin) * scale;
   }
   
-  // Фон сетки — годы
   stroke(30, 30, 45);
   strokeWeight(1);
   for (let y = yearMin; y <= yearMax; y += 2) {
@@ -187,7 +182,6 @@ function draw() {
     }
   }
   
-  // Годовые метки
   noStroke();
   fill(80, 80, 100);
   textSize(10);
@@ -203,7 +197,6 @@ function draw() {
         textSize(9);
       }
       text(y, x, height - margin.bottom + 10);
-      // Тире
       stroke(y % 5 === 0 ? 100 : 50, y % 5 === 0 ? 100 : 50, y % 5 === 0 ? 120 : 70);
       strokeWeight(y % 5 === 0 ? 2 : 1);
       line(x, height - margin.bottom, x, height - margin.bottom + 6);
@@ -211,16 +204,13 @@ function draw() {
     }
   }
   
-  // Основная ось X
   stroke(60, 60, 80);
   strokeWeight(2);
   line(margin.left, height - margin.bottom, width - margin.right, height - margin.bottom);
   
-  // Категории полосы (Y)
   const cats = [...activeCategories];
   const bandH = chartH / cats.length;
   
-  // Фон полос
   cats.forEach((cat, i) => {
     const y1 = margin.top + i * bandH;
     const alpha = hovered?.category === cat ? 12 : 5;
@@ -228,14 +218,12 @@ function draw() {
     noStroke();
     rect(margin.left, y1, chartW, bandH);
     
-    // Название категории
     fill(categoryColors[cat]);
     textSize(11);
     textAlign(LEFT, CENTER);
     text(cat, 14, y1 + bandH/2);
   });
   
-  // Сбор точек — группировка по году и категории
   const groups = {};
   filteredData.forEach(d => {
     const key = `${d.year}_${d.category}`;
@@ -245,7 +233,6 @@ function draw() {
   
   hovered = null;
   
-  // Рисуем точки
   Object.entries(groups).forEach(([key, items]) => {
     const [year, cat] = key.split('_');
     const yr = parseInt(year);
@@ -265,7 +252,6 @@ function draw() {
     
     const cy = bandY + bandH / 2;
     
-    // Подсветка при наведении
     const dist = sqrt((mouseX - x)**2 + (mouseY - cy)**2);
     const isHover = dist < r + 4;
     
@@ -287,7 +273,6 @@ function draw() {
     noStroke();
     ellipse(x, cy, r * 2, r * 2);
     
-    // Радиальные линии для групп
     if (items.length > 1 && !playMode) {
       items.forEach((item, idx) => {
         const angle = (idx / items.length) * TWO_PI - HALF_PI;
@@ -298,7 +283,6 @@ function draw() {
       });
     }
     
-    // Число работ
     if (density > 1 && r > 8) {
       fill(255);
       textSize(9);
@@ -309,7 +293,6 @@ function draw() {
   
   drawingContext.shadowBlur = 0;
   
-  // Индикатор года при воспроизведении
   if (playMode) {
     const px = xForYear(playYear);
     stroke(255, 255, 255, 80);
@@ -321,7 +304,6 @@ function draw() {
     text(Math.floor(playYear), px, margin.top - 8);
   }
   
-  // Подсветка выбранного года
   if (selectedYear && !playMode) {
     const sx = xForYear(selectedYear);
     stroke(255, 255, 255, 40);
@@ -329,7 +311,6 @@ function draw() {
     line(sx, margin.top, sx, height - margin.bottom);
   }
   
-  // Tooltip
   updateTooltip();
 }
 
@@ -348,7 +329,6 @@ function updateTooltip() {
     catEl.style.background = categoryColors[hovered.category] + '30';
     catEl.style.color = categoryColors[hovered.category];
     
-    // Позиционирование
     let tx = mouseX + 20;
     let ty = mouseY + 20;
     if (tx + 340 > width) tx = mouseX - 340;
@@ -364,7 +344,6 @@ function mousePressed() {
   isDragging = true;
   lastMouseX = mouseX;
   
-  // Клик по точке — выбрать год
   if (hovered) {
     selectedYear = hovered.year;
     playMode = false;
@@ -376,7 +355,6 @@ function mouseDragged() {
     panX += mouseX - lastMouseX;
     lastMouseX = mouseX;
     
-    // Ограничение pan
     const minPan = -(1951 - 1908) * (width - 100) / (1951 - 1908) * zoom + (width - 100);
     panX = constrain(panX, minPan, 0);
   }
