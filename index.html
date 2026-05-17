@@ -23,11 +23,12 @@ h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 22px; fo
 .control-btn { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); color: #aaaab8; padding: 6px 14px; border-radius: 8px; font-size: 12px; cursor: pointer; transition: all 0.2s; }
 .control-btn:hover { background: rgba(255,255,255,0.1); color: #e0e0e8; }
 .active-cats { position: fixed; bottom: 20px; left: 24px; z-index: 10; color: #555570; font-size: 11px; }
+.author-footer { position: fixed; bottom: 6px; right: 24px; z-index: 10; color: #3a3a50; font-size: 11px; letter-spacing: -0.2px; }
 </style>
 </head>
 <body>
 <h1>Сергей Иосифович Гессен <span style="color:#666680;font-size:16px">(1887–1950)</span></h1>
-<div class="subtitle">Таймлайн 232 работ · 1909–1950 · интерактивная визуализация</div>
+<div class="subtitle" id="subtitle">Загрузка…</div>
 
 <div class="legend" id="legend"></div>
 
@@ -47,7 +48,7 @@ h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 22px; fo
 <div class="active-cats" id="active-cats"></div>
 
 <script>
-// ── Данные ── (будут загружены из JSON)
+// ── Данные ──
 let timelineData = [];
 let filteredData = [];
 
@@ -57,10 +58,11 @@ const categoryColors = {
   'Право и политика': '#4ecdc4',
   'Литературоведение': '#ffe66d',
   'Автобиография': '#a29bfe',
-  'Переводы': '#fd79a8'
+  'Переводы': '#fd79a8',
+  'Экономика': '#ff9f43'
 };
 
-const categoryOrder = ['Философия', 'Педагогика', 'Право и политика', 'Литературоведение', 'Автобиография', 'Переводы'];
+const categoryOrder = ['Философия', 'Педагогика', 'Право и политика', 'Литературоведение', 'Автобиография', 'Переводы', 'Экономика'];
 
 let activeCategories = new Set(categoryOrder);
 let hovered = null;
@@ -76,10 +78,11 @@ let lastMouseX = 0;
 fetch('gessen_timeline.json')
   .then(r => r.json())
   .then(data => {
-    timelineData = data.filter(d => d.year <= 1950); // только прижизненные
+    timelineData = data.filter(d => d.year <= 1950);
     filteredData = [...timelineData];
     createLegend();
     updateStats();
+    document.getElementById('subtitle').textContent = `Таймлайн ${timelineData.length} работ · 1909–1950 · интерактивная визуализация`;
   })
   .catch(() => {
     // Fallback demo data
