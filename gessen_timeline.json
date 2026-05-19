@@ -1,1859 +1,345 @@
 [
   {
-    "year": 1909,
-    "title": "Индивидуальная причинность (русск)",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "",
-    "journal": ""
-  },
-  {
-    "year": 1909,
-    "title": "Individuelle Kausalität: Studien zum transzendentalen Empirismus",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://ia902209.us.archive.org/27/items/individuellekaus00hess/individuellekaus00hess.pdf",
-    "journal": "Berlin: Reuther & Reichard"
-  },
-  {
-    "year": 1909,
-    "title": "Александр Герцен",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "",
-    "journal": "В сб.: Von Messias. Leipzig"
-  },
-  {
-    "year": 1910,
-    "title": "Вводная статья (к 1-му тому «Логоса»)",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://runivers.ru/philosophy/lib/book3292/",
-    "journal": "Логос. Кн. 1"
-  },
-  {
-    "year": 1910,
-    "title": "Мистика и метафизика",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://runivers.ru/philosophy/lib/book3292/",
-    "journal": "Логос. Кн. 1"
-  },
-  {
-    "year": 1910,
-    "title": "Неославянофильство в философии",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Впервые опубл. в рус. «Логосе»; вошла в Избранное 2010 С. 444–449",
-    "journal": "Кн. уточнить"
-  },
-  {
-    "year": 1910,
-    "title": "От редакции [к 1-му тому «Логоса»]",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Избранное 2010 (РОССПЭН), с. 395",
-    "journal": "Логос. Кн. 1"
-  },
-  {
-    "year": 1910,
-    "title": "Политические идеалы жирондистов (1-я публикация)",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "https://www.rsl.ru/ru/search#q=%D0%93%D0%B5%D1%81%D1%81%D0%B5%D0%BD&sort=none&f[0]=type:book",
-    "journal": "Русская мысль (Москва). Р. 31: 1910"
-  },
-  {
-    "year": 1911,
-    "title": "Статья о книге Мейерсона «Тождество и реальность»",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Вопросы философии и психологии. Москва. 1911"
-  },
-  {
-    "year": 1912,
-    "title": "Философия наказания",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://runivers.ru/philosophy/lib/book3292/",
-    "journal": "Логос. Кн. 1–2. С. 183–232"
-  },
-  {
-    "year": 1913,
-    "title": "Philosophie der Strafe",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
-    "journal": "Logos. Jg. 1914"
-  },
-  {
-    "year": 1913,
-    "title": "Свобода и дисциплина",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "—",
-    "journal": "[Б.м.] (1910–1914)"
-  },
-  {
-    "year": 1913,
-    "title": "Что такое политическая свобода?",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "[Б.м.] (1910–1914)"
-  },
-  {
-    "year": 1916,
-    "title": "Проблема нации",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Вопросы войны. 1916"
-  },
-  {
-    "year": 1916,
-    "title": "Идея нации",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Избранное 2010 (РОССПЭН), с. 504",
-    "journal": "Вопросы войны. 1916"
-  },
-  {
-    "year": 1917,
-    "title": "Политические идеи жирондистов",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "https://search.rsl.ru/ru/record/01009182863",
-    "journal": "Москва. 1917"
-  },
-  {
-    "year": 1917,
-    "title": "Политическая свобода и социализм",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "https://search.rsl.ru/ru/record/01004216774",
-    "journal": "Петроград: Н.Н. Карбасников. 1917"
-  },
-  {
-    "year": 1917,
-    "title": "Что такое политическая свобода",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Петроград. 1917"
-  },
-  {
-    "year": 1917,
-    "title": "Политические идеи жирондистов: к истории",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "М.: Московская просветительская комиссия, 1917",
-    "journal": ""
-  },
-  {
-    "year": 1919,
-    "title": "Об академической свободе",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Известия совета студенческих старост. Томск"
-  },
-  {
-    "year": 1919,
-    "title": "Очерки философской педагогики. Педагогика как наука",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Журн. Министерства народного просвещения. Омск/Томск"
-  },
-  {
-    "year": 1920,
-    "title": "Что такое трудовая школа?",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Свободная трудовая школа. Томск. Сб. 2"
-  },
-  {
-    "year": 1923,
-    "title": "Nejnovější ruská filosofie",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.worldcat.org/search?q=Nejnov%C4%9Bj%C5%A1%C3%AD+rusk%C3%A1+filosofie+Hessen",
-    "journal": "Ruch filosofický. 1923"
-  },
-  {
-    "year": 1923,
-    "title": "Фребель и Монтессори: очерк философской теории игры",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 1"
-  },
-  {
-    "year": 1923,
-    "title": "Основы педагогики. Введение в прикладную философию",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "https://www.klex.ru/27ho",
-    "journal": "Берлин: Слово. 1923 / М.: Школа-Пресс 1995"
-  },
-  {
-    "year": 1923,
-    "title": "Идея трудовой школы и лабораторный план (Dalton Plan): к теории урока",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Т. 5–6"
-  },
-  {
-    "year": 1923,
-    "title": "Педагогика Платона и современность",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Вестник самообразования. Берлин"
-  },
-  {
-    "year": 1923,
-    "title": "К открытию Русского Педагогического Института в Праге",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 2–3"
-  },
-  {
-    "year": 1924,
-    "title": "Крушение утопизма",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 19"
-  },
-  {
-    "year": 1924,
-    "title": "Monismus a pluralismus v systematice pojmů",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "https://www.worldcat.org/search?q=Monismus+a+pluralismus+Hessen",
-    "journal": "Ruch filosofický. 1924"
-  },
-  {
-    "year": 1924,
-    "title": "Пауль Наторп",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 10–11"
-  },
-  {
-    "year": 1924,
-    "title": "Педагогика Канта: к 200-летию со дня рождения",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 8"
-  },
-  {
-    "year": 1925,
-    "title": "Fröbel und Montessori. Versuch einer Theorie des Spiels",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. Bd. I. 1925"
-  },
-  {
-    "year": 1925,
-    "title": "Die Idee der Arbeitsschule und der Daltonplan (Zur Theorie der Schularbeit)",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "Die Erziehung (Leipzig). R. 1: 1925/1926"
-  },
-  {
-    "year": 1925,
-    "title": "Последняя фаза советской педагогики",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом"
-  },
-  {
-    "year": 1925,
-    "title": "Эволюция единой трудовой школы в Советской России",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 15–16"
-  },
-  {
-    "year": 1925,
-    "title": "Проблема правового социализма. Ч. I",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 22–23"
-  },
-  {
-    "year": 1926,
-    "title": "Органы управления народным просвещением в СССР",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 18"
-  },
-  {
-    "year": 1927,
-    "title": "Krushenie utopizma (нем. пер.)",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "In: Festschrift für T.G. Masaryk. Praha. 1927"
-  },
-  {
-    "year": 1927,
-    "title": "И.Г. Песталоцци: к столетию со дня смерти",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 24"
-  },
-  {
-    "year": 1927,
-    "title": "Nochmals Fröbel und Montessori. Gegenkritik",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. Bd. IV. 1927"
-  },
-  {
-    "year": 1927,
-    "title": "Leo Tolstoj als Pädagoge",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. Bd. 1. 1927–28"
-  },
-  {
-    "year": 1927,
-    "title": "L'Instruction Publique en Russie Soviétique",
-    "category": "Философия",
-    "lang": "фр",
-    "link": "https://gallica.bnf.fr/ark:/12148/bpt6k4226431m",
-    "journal": "Le Monde Slave (Paris). 1927"
-  },
-  {
-    "year": 1927,
-    "title": "Die Schule in Sowjetrußland",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "",
-    "journal": "S. 40–59; 110–125"
-  },
-  {
-    "year": 1927,
-    "title": "Письмо С.И. Гессена к В.Ф. Булгакову. 11 июля 1927 г.",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "",
-    "journal": "Ф. 2226. Оп. 1. Ед. хр. 594"
-  },
-  {
-    "year": 1927,
-    "title": "Фребель и Монтессори: доклад",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Русская школа за рубежом. 1927–1928. Кн. 27. С. 345–363",
-    "journal": ""
-  },
-  {
-    "year": 1927,
-    "title": "Линцкая программа австрийской с.-д. партии",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 33"
-  },
-  {
-    "year": 1927,
-    "title": "Лев Толстой как мыслитель",
-    "category": "Литературоведение",
-    "lang": "рус",
-    "link": "—",
-    "journal": "In: Лев Толстой. Praha: Horanský ústav. 1928"
-  },
-  {
-    "year": 1927,
-    "title": "Новая литература о Песталоцци",
-    "category": "Литературоведение",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 24"
-  },
-  {
-    "year": 1928,
-    "title": "Tragedia dobra w «Braciach Karamazow» (реферат)",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/106988",
-    "journal": "Przegląd Filozoficzny (Warszawa). R. 31: 1928"
-  },
-  {
-    "year": 1928,
-    "title": "Stosunek fizyki Galileusza do fizykalnego poglądu na świat Arystotelesa",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/106988",
-    "journal": "Przegląd Filozoficzny (Warszawa). R. 31: 1928"
-  },
-  {
-    "year": 1928,
-    "title": "Науки философские и общественные",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Справочное издание к 10-летию Чехословацкой республики",
-    "journal": "С. 273"
-  },
-  {
-    "year": 1928,
-    "title": "Vergleichende Darstellung des Schulwesens in anderen Ländern",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "In: Handbuch der Pädagogik. Hrsg. Nohl und Pallat. 1928"
-  },
-  {
-    "year": 1928,
-    "title": "Новые аграрные программы европейских социалистических партий",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 36"
-  },
-  {
-    "year": 1928,
-    "title": "Фребель и Монтессори: доклад на 1-м съезде по дошкольному воспитанию",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 27"
-  },
-  {
-    "year": 1928,
-    "title": "Лев Толстой как педагог",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 29–30"
-  },
-  {
-    "year": 1928,
-    "title": "Десять лет советской школы",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 28"
-  },
-  {
-    "year": 1928,
-    "title": "Школьная система Чехословакии",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 29–30"
-  },
-  {
-    "year": 1928,
-    "title": "Трагедия добра в «Братьях Карамазовых» Достоевского",
-    "category": "Литературоведение",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 35"
-  },
-  {
     "year": 1929,
-    "title": "Der Kampf der Utopie und der Autonomie des Guten...",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.worldcat.org/oclc/1532710991",
-    "journal": "Pädagogische Hochschule. №4. 1929 / Bühl-Baden: Konkordia"
-  },
-  {
-    "year": 1929,
-    "title": "Die Tragödie des Guten in «Brüder Karamasoff»",
+    "title": "Трагедия добра в «Братьях Карамазовых»",
     "category": "Философия",
     "lang": "нем",
     "link": "https://search.rsl.ru/ru/record/01009021827",
-    "journal": "Bonn: Friedrich Cohen (Der russische Gedanke). 1929"
+    "journal": "Bonn: Friedrich Cohen (Der russische Gedanke). 1929",
+    "posthumous": false
   },
   {
     "year": 1929,
-    "title": "Система физики Галилея и её отношение к системе Аристотеля",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Труды Русского института в Праге. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Tragedia dobra w «Braciach Karamazow»",
+    "title": "Трагедия добра в «Братьях Карамазовых» (польск.)",
     "category": "Философия",
     "lang": "пол",
     "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
-    "journal": "Przegląd Współczesny. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Die Entwicklung der Physik Galileis und ihr Verhältnis zum physikalischen System",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
-    "journal": "Logos (Tübingen). T. 18: 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Henrik de Mans Theorie des Sozialismus",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "Zeitschrift für Rechtsphilosophie. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Pedagoģikas pamati",
-    "category": "Философия",
-    "lang": "латв",
-    "link": "—",
-    "journal": "Рига. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Lew Tołstoj jako pedagog",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Przegląd Pedagogiczny. 1925"
-  },
-  {
-    "year": 1929,
-    "title": "Froebel e Montessori. Controcritica",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "—",
-    "journal": "Educazione Nazionale. Apr. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Die englische Erziehungstradition",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "Pädagogische Hochschule. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Schule und Demokratie",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Schule und Staat in Frankreich und England",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://ld.zdb-services.de/resource/514054-7",
-    "journal": "Zeitschrift für die Geschichte der Pädagogik. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "John Dewey's Erziehungsphilosophie (болг. пер.)",
-    "category": "Философия",
-    "lang": "болг",
-    "link": "—",
-    "journal": "Učilišten Pregled. 1929"
-  },
-  {
-    "year": 1929,
-    "title": "Иностранцы-очевидцы о советской школе",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
-    "journal": "Русская школа за рубежом. Кн. 31"
-  },
-  {
-    "year": 1929,
-    "title": "Кризис демократии и новейшая эволюция школьных систем",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "В сб. памяти П.Н. Милюкова. Прага"
-  },
-  {
-    "year": 1929,
-    "title": "Генрих де Ман как теоретик социализма",
-    "category": "Право и политика",
-    "lang": "рус",
-    "link": "Нем. оригинал — ID 65; полный рус. текст в Избранном 2010. С. 365–392",
-    "journal": "№ 40 (краткая рус. версия)"
-  },
-  {
-    "year": 1929,
-    "title": "Неизданные произведения Достоевского",
-    "category": "Литературоведение",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 32"
-  },
-  {
-    "year": 1930,
-    "title": "Die Idee des Bösen in den «Dämonen» von Dostojewski",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "In: F.M. Dostojewski. Praha: Slavist. Seminar d. Deutschen Univ. 1930"
-  },
-  {
-    "year": 1930,
-    "title": "Stavrogin als philosophische Gestalt",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "In: Dostojewsky Studien. Prag–Reichenberg. [1930]"
-  },
-  {
-    "year": 1930,
-    "title": "La lutte entre l'utopie et l'autonomie du Bien...",
-    "category": "Философия",
-    "lang": "фр",
-    "link": "https://gallica.bnf.fr/ark:/12148/bpt6k4226431m",
-    "journal": "Le Monde Slave. Paris. 1930"
-  },
-  {
-    "year": 1930,
-    "title": "Tolstoj als Denker",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
-    "journal": "Logos. Internationale Zeitschrift für Philosophie der Kultur (Tübingen). T. 19: 1930"
-  },
-  {
-    "year": 1930,
-    "title": "Educational Policy in Soviet Russia",
-    "category": "Философия",
-    "lang": "анг",
-    "link": "https://archive.org/details/dli.ministry.01826",
-    "journal": "London: P.S. King & Son. 1930"
-  },
-  {
-    "year": 1930,
-    "title": "John Deweys Erziehungslehre",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.worldcat.org/oclc/1508202552",
-    "journal": "Leipzig: Verlag von Quelle & Meyer. 1930"
-  },
-  {
-    "year": 1930,
-    "title": "Die scuola serena von G. Lombardo Radice",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. 1930"
-  },
-  {
-    "year": 1930,
-    "title": "Государство и школа во Франции и Англии (рус. брошюра)",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Родная школа (Резекне). 1930. № 1 / Рига: Союз русских учителей в Латвии, 1930",
-    "journal": "Рига: Союз русских учителей в Латвии. 1930"
-  },
-  {
-    "year": 1930,
-    "title": "Государство и школа во Франции и Англии (журн. версия)",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Журнальная публикация; отдельная брошюра — ID 35",
-    "journal": "№ 1"
+    "journal": "Przegląd Współczesny. 1929",
+    "posthumous": false
   },
   {
     "year": 1931,
-    "title": "Il crollo dell'utopismo",
+    "title": "Крушение утопизма (ит.)",
     "category": "Философия",
     "lang": "ит",
     "link": "—",
-    "journal": "Educazione Nazionale. Mag. 1931"
+    "journal": "Educazione Nazionale. Mag. 1931",
+    "posthumous": false
   },
   {
-    "year": 1931,
-    "title": "Podstawy pedagogiki",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/fulldisplay?docid=alma991008885059705066",
-    "journal": "Warszawa: Nasza Księgarnia. 1931"
-  },
-  {
-    "year": 1931,
-    "title": "Osnovi na pedagogikata",
-    "category": "Философия",
-    "lang": "болг",
-    "link": "—",
-    "journal": "София. 1931"
-  },
-  {
-    "year": 1931,
-    "title": "Das Problem der Autonomie der Erziehung",
+    "year": 1927,
+    "title": "Крушение утопизма (нем. пер.)",
     "category": "Философия",
     "lang": "нем",
     "link": "—",
-    "journal": "In: Festschrift für Heinrich Rickert. Baden: Konkordia. 1931"
+    "journal": "In: Festschrift für T.G. Masaryk. Praha. 1927",
+    "posthumous": false
   },
   {
-    "year": 1931,
-    "title": "Staat und Schulwesen in Frankreich von Beginn des 19. Jahrhunderts bis zur Gegen",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "Ср. ID 108 (Schule und Staat... 1929) — разные статьи",
-    "journal": "№ 2. S. 129–153"
-  },
-  {
-    "year": 1931,
-    "title": "Пятилетка и школьная политика советской власти",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://www.odinblago.ru/noviy_grad/1/7/",
-    "journal": "Новый град. № 1"
-  },
-  {
-    "year": 1931,
-    "title": "Школьная политика советской власти за 1927–1930 гг.",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Продолжение ID 30 (Десять лет советской школы)",
-    "journal": "Кн. 34. С. 385–420"
-  },
-  {
-    "year": 1931,
-    "title": "Борьба утопии и автономии добра в мировоззрении Достоевского и Соловьева",
-    "category": "Литературоведение",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Кн. 45–46"
-  },
-  {
-    "year": 1932,
-    "title": "Идея социального права",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "По поводу книги Г. Гурвича «L'idée du Droit Social»; нем. версия — ID 74",
-    "journal": "С. 421–435"
-  },
-  {
-    "year": 1932,
-    "title": "Zur Geschichte und Theorie des Sozialrechts",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "Развёрнутая нем. версия; ср. ID 74",
-    "journal": "№ 6. S. 57–75, 244–269"
-  },
-  {
-    "year": 1932,
-    "title": "О пятилетке и проблеме хозяйственной автаркии",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "http://www.odinblago.ru/noviy_grad/5/6/",
-    "journal": "Новый град. № 5"
-  },
-  {
-    "year": 1932,
-    "title": "Современный кризис и перерождение капитализма",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Новый град. 1932. № 3. С. 60–71; № 4. С. 21–39",
-    "journal": "Новый град. № 3"
-  },
-  {
-    "year": 1932,
-    "title": "Современный кризис (окончание)",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "http://www.odinblago.ru/noviy_grad/3/7/",
-    "journal": "Новый град. № 4"
-  },
-  {
-    "year": 1932,
-    "title": "Die Erziehungsphilosophie von G. Gentile",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. 1932"
-  },
-  {
-    "year": 1932,
-    "title": "Das Werk von Georg Kerschensteiner",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. 1932"
-  },
-  {
-    "year": 1932,
-    "title": "Školství a demokracie",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "https://www.worldcat.org/search?q=Hessen+Skolstvi+demokracie",
-    "journal": "Praha: Nakladatelství Komenského. 1932"
-  },
-  {
-    "year": 1932,
-    "title": "Das Problem des sozialen Rechts (рец. на Gurvitch)",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "Zeitschrift für Rechtsphilosophie. 1932"
-  },
-  {
-    "year": 1932,
-    "title": "Хесен С. Георг Кершенщайнер",
-    "category": "Философия",
-    "lang": "болг",
-    "link": "",
-    "journal": "Кн. 5. С. 1129–1153"
-  },
-  {
-    "year": 1932,
-    "title": "Трагедия зла (философский образ Ставрогина)",
-    "category": "Литературоведение",
-    "lang": "рус",
-    "link": "http://www.odinblago.ru/path/36/3",
-    "journal": "Путь. № 36"
-  },
-  {
-    "year": 1933,
-    "title": "Итоги культурной пятилетки",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Т. 51–52"
-  },
-  {
-    "year": 1933,
-    "title": "Das Problem der moralischen Erziehung",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Fünfzehn Jahre Sowjetschulwesen",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://search.rsl.ru/ru/record/01009279010",
-    "journal": "Langensalza: Verlag von Julius Beltz. 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Kommunistische Pädagogen Sowjetrusslands",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Рукопись утрачена. Польск.: Chowanna 1933. Чешск.: Pedagogické Rozhledy 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Komunistyczni pedagodzy Rosji Sowieckiej",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
-    "journal": "Chowanna. Katowice. 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Komunistická pedagogika v sovětském Rusku",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "—",
-    "journal": "Pedagogické Rozhledy. 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Globální metoda nebo globální vyučování čtení",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "—",
-    "journal": "Praha: Dědictví Komenského. 1933/1935"
-  },
-  {
-    "year": 1933,
-    "title": "Polska reforma szkolna",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Kultura Pedagogiczna (Kraków). R. 1: 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Das Sowjetschulwesen am Ende des Fünfjahresplanes",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "Нем. версия книги ID 50 (краткая)",
-    "journal": "№ 8. S. 252–259"
-  },
-  {
-    "year": 1933,
-    "title": "Istota i znaczenie poglądu na świat",
+    "year": 2013,
+    "title": "Крушение утопизма (польск. пер.)",
     "category": "Философия",
     "lang": "пол",
     "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: T.N.S.W. 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Ruština pro Čechy [S. Makarov]",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Praha: Orbis. 1933"
-  },
-  {
-    "year": 1933,
-    "title": "Судьба коммунистического идеала образования",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "http://www.odinblago.ru/noviy_grad/6/4/",
-    "journal": "Новый град. № 6"
-  },
-  {
-    "year": 1933,
-    "title": "Основе педагогике (изд. 1933)",
-    "category": "Педагогика",
-    "lang": "серб",
-    "link": "1-е серб. изд.; в CSV ID 10 — изд. 1938 г.",
-    "journal": ""
-  },
-  {
-    "year": 1933,
-    "title": "Хесен С. Совјетска школа крајем пјатиљетке",
-    "category": "Педагогика",
-    "lang": "серб",
-    "link": "Серб. пер. книги о советской школе на рубеже пятилетки",
-    "journal": ""
-  },
-  {
-    "year": 1934,
-    "title": "Was ist allgemeine Bildung?",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung. 1934"
-  },
-  {
-    "year": 1934,
-    "title": "O pojęciu i celu wychowania moralnego",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa. 1934"
-  },
-  {
-    "year": 1934,
-    "title": "Sittliche Erziehung",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://relbib.de/Record/130088684",
-    "journal": "Die Erziehung (Leipzig). R. 10: 1934/1935"
-  },
-  {
-    "year": 1934,
-    "title": "Zagadnienie autonomii kształcenia",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
-    "journal": "Ruch Pedagogiczny (Warszawa). R. 24: 1934/1935"
-  },
-  {
-    "year": 1934,
-    "title": "Pedagogika i szkolnictwo w Rosji Sowieckiej",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Lwów: Książnica-Atlas. 1934"
-  },
-  {
-    "year": 1934,
-    "title": "Weltanschauung Ideologie Bildung",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://search.rsl.ru/ru/record/01009279011",
-    "journal": "Praha: Russkij svobodnyj universitet. 1934"
-  },
-  {
-    "year": 1934,
-    "title": "Pogląd na świat i pedagogika",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: ZG TNSW. 1934"
-  },
-  {
-    "year": 1934,
-    "title": "Die Pädagogik Giovanni Gentiles",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "Ит. кн. изд.: Avio 1934; Signorelli 1940 (ср. ID 72 — 1932)",
-    "journal": "S. 401–422, 479–490"
-  },
-  {
-    "year": 1934,
-    "title": "La pedagogia di Giovanni Gentile (изд. Avio 1934)",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "1-е ит. изд. (Avio 1934); ср. ID 161 (Cecchini 1937) и ID 162 (Signorelli 1939/40)",
-    "journal": ""
-  },
-  {
-    "year": 1934,
-    "title": "Pogląd na świat i pedagogika (журн. версия)",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "Журн. статья; книжное изд. — ID 83",
-    "journal": "№ 2. S. 121–138"
-  },
-  {
-    "year": 1934,
-    "title": "Хесен С. Фребел и Монтесори",
-    "category": "Философия",
-    "lang": "серб",
-    "link": "Серб. пер. статьи «Фребель и Монтессори»",
-    "journal": ""
-  },
-  {
-    "year": 1934,
-    "title": "Мировоззрение и образование",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Русская школа (Прага). 1934. № 1. С. 3–23",
-    "journal": "Русская школа (Прага). Т. 1"
-  },
-  {
-    "year": 1935,
-    "title": "Filosofické základy pedagogiky",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "—",
-    "journal": "Praha. 1935–1936"
-  },
-  {
-    "year": 1935,
-    "title": "Мировоззрение и идеология",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Современные записки. Т. 57"
-  },
-  {
-    "year": 1935,
-    "title": "Tolstoj jako pedagog (Z powodu 25-lecia śmierci)",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "",
-    "journal": "№ 4. S. 105–120"
-  },
-  {
-    "year": 1935,
-    "title": "Petnajst let sovietskega solstva...",
-    "category": "Философия",
-    "lang": "словен",
-    "link": "https://search.rsl.ru/ru/record/01005274045",
-    "journal": "Ljubljana: Slovenska Šolska Matica. 1935"
-  },
-  {
-    "year": 1935,
-    "title": "Szkolnictwo w krajach anglosaskich",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
-    "journal": "Chowanna (Katowice). 1935"
-  },
-  {
-    "year": 1935,
-    "title": "Szkoła w Rosji i rewolucja (польск. версия)",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
-    "journal": "Ruch Pedagogiczny (Warszawa). R. 25: 1935/1936"
-  },
-  {
-    "year": 1935,
-    "title": "Weltanschauung und Ideologie",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Прага: Русский народный университет. 1935"
-  },
-  {
-    "year": 1935,
-    "title": "O demokracji (журн. версия)",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
-    "journal": "Przegląd Współczesny (Warszawa). T. 52: 1935"
-  },
-  {
-    "year": 1935,
-    "title": "O demokracji",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Kraków: Krakowska Spółka Wydawnicza. 1935"
-  },
-  {
-    "year": 1935,
-    "title": "Szkoła doszkalająca zawodowa i jej miejsce w systemie szkolnictwa współczesnego",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "",
-    "journal": "№ 9. S. 193–211"
-  },
-  {
-    "year": 1935,
-    "title": "Makarov S. Ruština pro každého",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Ср. ID 160 (Ruština pro Čechy, Orbis 1933) — другое заглавие и издатель",
-    "journal": ""
-  },
-  {
-    "year": 1935,
-    "title": "Co to jest szkoła jednolita? (сокр. словац.)",
-    "category": "Философия",
-    "lang": "словац",
-    "link": "—",
-    "journal": "Naša škola. 1935"
-  },
-  {
-    "year": 1935,
-    "title": "Globalna metoda (болг.)",
-    "category": "Философия",
-    "lang": "болг",
-    "link": "—",
-    "journal": "— 1936"
-  },
-  {
-    "year": 1935,
-    "title": "Основи на педагогиката. Т. 1 (изд. 1935)",
-    "category": "Педагогика",
-    "lang": "болг",
-    "link": "Пер. с рукописи; вероятно 2-е болг. изд. (1-е — 1931, ID 8)",
-    "journal": ""
-  },
-  {
-    "year": 1935,
-    "title": "Глобальная «метода» или глобальное обучение грамоте?",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Русская школа (Прага)"
-  },
-  {
-    "year": 1935,
-    "title": "Проблема единой школы",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Русская школа (Прага). 1935"
-  },
-  {
-    "year": 1935,
-    "title": "Принцип дифференциации в системе единой школы",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Русская школа (Прага). 1935"
-  },
-  {
-    "year": 1935,
-    "title": "Школа в России и революция",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Польск. версия: Ruch Pedagogiczny 1935 — ID 110",
-    "journal": "№ 59. С. 445–458"
-  },
-  {
-    "year": 1935,
-    "title": "Глобальная метода",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Русская школа (Прага). 1935. № 2–3. С. 25–26",
-    "journal": ""
-  },
-  {
-    "year": 1936,
-    "title": "Osobnost a temperament",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "—",
-    "journal": "Ruch filosofický. 1933–34"
-  },
-  {
-    "year": 1936,
-    "title": "Fondamenti della pedagogia come filosofia applicata",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "SBN-ID: CUB0342003",
-    "journal": "Palermo: Sandron. 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Die Methode der Maria Montessori und ihr Schicksal",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "https://www.worldcat.org/oclc/257475562",
-    "journal": "Halle: Akademischer Verlag. 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Vom Schulwesen in angelsächsischen Ländern",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "Польск. пар.: Szkolnictwo w krajach anglosaskich — ID 99",
-    "journal": "№ 11. S. 50–58"
-  },
-  {
-    "year": 1936,
-    "title": "Das Prinzip der Totalität in der Pädagogik",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "Доклад на VIII Межд. философском конгрессе. 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Zasada struktury w pedagogice",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
-    "journal": "Chowanna. Katowice. 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Czy oświata musi być klasowa?",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Praca Oświatowa. 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Dwa typy wychowania państwowego",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
-    "journal": "Praca Oświatowa (Warszawa). R. 2: 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Zasada totalności w pedagogice",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
-    "journal": "Chowanna (Katowice). R. 6: 1935"
-  },
-  {
-    "year": 1936,
-    "title": "Idea ogólnego wykształcenia w szkolnictwie i pedagogice XIX stulecia",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "http://pbc.up.krakow.pl/dlibra/publication/889",
-    "journal": "Kultura i Wychowanie (Warszawa). R. 4: 1936/1937"
-  },
-  {
-    "year": 1936,
-    "title": "Praca ręczna w szkole ogólnokształcącej",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: Towarzystwo Miłośników Robót Ręcznych. 1936"
-  },
-  {
-    "year": 1936,
-    "title": "Принцип дифференциации",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Русская школа. 1936. № 2. С. 7",
-    "journal": ""
-  },
-  {
-    "year": 1936,
-    "title": "О понятии и цели нравственного образования",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "—",
-    "journal": "Жизнь и смерть. Сб. памяти Н.Е. Осипова. Прага. Т. 2"
-  },
-  {
-    "year": 1936,
-    "title": "Проблемы единой школы",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Русская школа. 1936. № 1. С. 5–12",
-    "journal": ""
-  },
-  {
-    "year": 1937,
-    "title": "Co to jest szkoła jednolita?",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
-    "journal": "Ruch Pedagogiczny. 1936–37"
-  },
-  {
-    "year": 1937,
-    "title": "Szkoła specjalna i pedagogika ogólna",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Szkoła Specjalna. 1937"
-  },
-  {
-    "year": 1937,
-    "title": "Světový názor a pedagogika. Studie k problému autonomie",
-    "category": "Философия",
-    "lang": "чеш",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Praha: Dědictví Komenského. 1937"
-  },
-  {
-    "year": 1937,
-    "title": "La pedagogia di John Dewey (раннее отд. изд.)",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "—",
-    "journal": "Roma: Tip. Cecchini. 1937"
-  },
-  {
-    "year": 1937,
-    "title": "Globalna metoda (серб.)",
-    "category": "Философия",
-    "lang": "серб",
-    "link": "—",
-    "journal": "— 1937"
-  },
-  {
-    "year": 1938,
-    "title": "Osnovi pedagogike",
-    "category": "Философия",
-    "lang": "серб",
-    "link": "—",
-    "journal": "Белград. 1938"
-  },
-  {
-    "year": 1938,
-    "title": "O socjologizmie w pedagogice",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Przegląd socjologiczny. 1938"
-  },
-  {
-    "year": 1938,
-    "title": "Zasada całości w nauczaniu na wyższych szczeblach szkoły",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "http://pbc.up.krakow.pl/dlibra/publication/889",
-    "journal": "Kultura i Wychowanie (Warszawa). R. 5: 1938"
-  },
-  {
-    "year": 1938,
-    "title": "Giuseppe Lombardo-Radice i metoda Agazzi",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "http://pbc.up.krakow.pl/dlibra/publication/889",
-    "journal": "Przedszkole (Warszawa). 1938–1939"
-  },
-  {
-    "year": 1938,
-    "title": "Szkoła i demokracja na przełomie",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any,contains,Szko%C5%82a%20i%20demokracja%20na%20prze%C5%82omie%20Hessen",
-    "journal": "Warszawa: Nasza Księgarnia. 1938"
-  },
-  {
-    "year": 1938,
-    "title": "O niebezpieczeństwie socjologizmu w pedagogice",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: Nasza Księgarnia. 1938"
-  },
-  {
-    "year": 1938,
-    "title": "Szkoła powszechna",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: Nasza Księgarnia. 1938"
-  },
-  {
-    "year": 1938,
-    "title": "Школа и хозяйство",
-    "category": "Педагогика",
-    "lang": "рус",
-    "link": "Русская школа. 1938. № 2 (10). С. 8–14; № 3 (11). С. 9–16",
-    "journal": "№ 2 (10). С. 8–14; № 3 (11). С. 9–16"
-  },
-  {
-    "year": 1939,
-    "title": "O sprzecznościach i jedności wychowania",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://delibra.bg.polsl.pl/dlibra/publication/83051",
-    "journal": "Lwów: Książnica-Atlas. 1939"
-  },
-  {
-    "year": 1939,
-    "title": "La pedagogia di Giovanni Gentile (1-е ит. изд.)",
-    "category": "Философия",
-    "lang": "нем",
-    "link": "—",
-    "journal": "Roma: Signorelli. 1939/1940"
-  },
-  {
-    "year": 1939,
-    "title": "Russkaja pedagogika XX veka (серб. пер.)",
-    "category": "Философия",
-    "lang": "серб",
-    "link": "—",
-    "journal": "Učitel. Белград. 1939"
-  },
-  {
-    "year": 1943,
-    "title": "Co to jest humanizm?",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Pismo Młodych (Warszawa). 1943"
-  },
-  {
-    "year": 1943,
-    "title": "Niepodzielność wolności a marksizm",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Pismo Młodych (Warszawa). 1943"
-  },
-  {
-    "year": 1945,
-    "title": "Pedagog",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Ruch Pedagogiczny. 1945–46"
-  },
-  {
-    "year": 1945,
-    "title": "Przedmowa [к: O Jacku który uczył się czytać]",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "J.A. Maćkowiakowie. O Jacku który uczył się czytać. Konin: Druk. Państwowa. 1945"
-  },
-  {
-    "year": 1945,
-    "title": "Моя жизнь (Moâ žizn') — автобиография",
-    "category": "Автобиография",
-    "lang": "рус",
-    "link": "https://oac.cdlib.org/findaid/ark:/13030/kt0r29r517/",
-    "journal": "Hoover Institution Archives. Stanford"
-  },
-  {
-    "year": 1946,
-    "title": "Przedmowa [к: Naturalne drogi nauki czytania i pisania]",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "J.A. Maćkowiakowie. Naturalne drogi nauki czytania i pisania. Poznań: Księgarnia Św. Wojciecha. 1946"
-  },
-  {
-    "year": 1947,
-    "title": "Prawo i moralność",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Myśl Współczesna. Łódź. 1947–48"
-  },
-  {
-    "year": 1947,
-    "title": "Les droits de l'homme dans le libéralisme...",
-    "category": "Философия",
-    "lang": "фр",
-    "link": "https://oac.cdlib.org/findaid/ark:/13030/kt0r29r517/",
-    "journal": "Hoover Institution Archives. Stanford"
-  },
-  {
-    "year": 1947,
-    "title": "Struktura i treść szkoły współczesnej. Zarys dydaktyki ogólnej",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Łódź: Nowa Księgarnia. 1947"
-  },
-  {
-    "year": 1947,
-    "title": "Moje życie",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Łódź. 1947"
-  },
-  {
-    "year": 1948,
-    "title": "Zagadnienie różnicy prawa i moralności w filozofii starożytnej",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Łódź. 1948"
-  },
-  {
-    "year": 1948,
-    "title": "Slavonic countries",
-    "category": "Философия",
-    "lang": "анг",
-    "link": "https://www.worldcat.org/search?q=Year+Book+of+Education+1948+Evans",
-    "journal": "In: Year Book of Education 1948. London: Evans Brothers"
-  },
-  {
-    "year": 1948,
-    "title": "Ankieta o współzawodnictwie w szkole",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "—",
-    "journal": "Życie Szkoły (Warszawa). 1948"
-  },
-  {
-    "year": 1949,
-    "title": "The Rights of Man in Liberalism Socialism and Communism",
-    "category": "Философия",
-    "lang": "анг",
-    "link": "https://unesdoc.unesco.org/ark:/48223/pf0000068133",
-    "journal": "In: Human Rights. Ed. UNESCO. London & New York"
-  },
-  {
-    "year": 1949,
-    "title": "Les droits de l'homme dans le libéralisme le socialisme et le communisme (опубл.",
-    "category": "Философия",
-    "lang": "фр",
-    "link": "https://www.worldcat.org/search?q=Autour+de+la+nouvelle+D%C3%A9claration+universelle+Maritain",
-    "journal": "In: Autour de la nouvelle Déclaration universelle... Ed. J. Maritain. Paris: Sagittaires. 1949"
-  },
-  {
-    "year": 1949,
-    "title": "Education and Economic Life",
-    "category": "Философия",
-    "lang": "анг",
-    "link": "https://www.worldcat.org/search?q=Year+Book+of+Education+1949+Evans",
-    "journal": "In: Year Book of Education 1949. London: Evans Brothers"
-  },
-  {
-    "year": 1949,
-    "title": "Struttura e contenuto della scuola moderna",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "H. Mirecka / L. Volpicelli",
-    "journal": "Roma: Avio. 1949 (5-я перепеч. 1959"
-  },
-  {
-    "year": 1949,
-    "title": "Difesa della pedagogia",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "OCLC: 632551747",
-    "journal": "Roma: Avio. 1949 (3-е изд. 1952"
-  },
-  {
-    "year": 1951,
-    "title": "[Fragmenty pozostałe z pism społeczno-prawnych]. Т. 1–3",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Łódź. 1951"
-  },
-  {
-    "year": 1951,
-    "title": "Pedagogia e mondo economico",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "—",
-    "journal": "Roma: Avio. 1951"
-  },
-  {
-    "year": 1952,
-    "title": "Le virtù platoniche e le virtù evangeliche",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "—",
-    "journal": "Roma: Avio. 1952 (2-е изд. 1978"
-  },
-  {
-    "year": 1953,
-    "title": "Le droit et la moralité",
-    "category": "Философия",
-    "lang": "фр",
-    "link": "—",
-    "journal": "Actes du XIème Congrès International de Philosophie. Vol. 9. Bruxelles. 1953"
-  },
-  {
-    "year": 1953,
-    "title": "La pedagogia di John Dewey",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://www.worldcat.org/oclc/1404089451",
-    "journal": "Roma: Avio. 1953"
-  },
-  {
-    "year": 1954,
-    "title": "Leone Tolstoj / Maria Montessori",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://www.worldcat.org/oclc/250340787",
-    "journal": "Roma: Avio. 1954"
-  },
-  {
-    "year": 1954,
-    "title": "La scuola serena di G. Lombardo-Radice / La scuola del lavoro di G. Kerschenstei",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://www.worldcat.org/oclc/72344409",
-    "journal": "Roma: Avio. 1954"
-  },
-  {
-    "year": 1956,
-    "title": "Fondamenti filosofici della pedagogia. 2 тт.",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://search.rsl.ru/ru/record/01005579114",
-    "journal": "Roma: Avio. 1956 (1958"
-  },
-  {
-    "year": 1956,
-    "title": "Autobiografia: La pedagogia russa del XX secolo",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://www.worldcat.org/oclc/1507199525",
-    "journal": "Roma: Armando. 1956"
-  },
-  {
-    "year": 1957,
-    "title": "Democrazia moderna",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://www.worldcat.org/oclc/1507235294",
-    "journal": "Roma: Avio. 1957 (2-е изд. 1961"
+    "journal": "Kultura i Wychowanie (Łódź). 2013",
+    "posthumous": true
   },
   {
     "year": 1958,
-    "title": "Diritto e morale nel liberalismo nel socialismo nella democrazia nel comunismo",
-    "category": "Философия",
+    "title": "Право и нравственность... (ит.)",
+    "category": "Право и политика",
     "lang": "ит",
     "link": "I.C. Angle",
-    "journal": "Roma: Armando. 1958 (1978"
+    "journal": "Roma: Armando. 1958 (1978",
+    "posthumous": true
   },
   {
-    "year": 1959,
-    "title": "Scuola democratica e sistemi scolastici",
-    "category": "Философия",
-    "lang": "ит",
+    "year": 1953,
+    "title": "Право и нравственность (фр.)",
+    "category": "Право и политика",
+    "lang": "фр",
     "link": "—",
-    "journal": "Roma: Armando. 1959"
+    "journal": "Actes du XIème Congrès International de Philosophie. Vol. 9. Bruxelles. 1953",
+    "posthumous": true
   },
   {
-    "year": 1960,
-    "title": "L'idealismo pedagogico in Italia (Gentile + Lombardo Radice)",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "https://www.worldcat.org/oclc/250340019",
-    "journal": "Roma: Armando. 1960"
-  },
-  {
-    "year": 1962,
-    "title": "Ideologia e autonomia dell'educazione e della pedagogia",
-    "category": "Философия",
-    "lang": "ит",
+    "year": 1947,
+    "title": "Право и нравственность",
+    "category": "Право и политика",
+    "lang": "пол",
     "link": "—",
-    "journal": "Roma: Armando. 1962"
+    "journal": "Myśl Współczesna. Łódź. 1947–48",
+    "posthumous": false
   },
   {
-    "year": 1968,
-    "title": "Studia z filozofii kultury",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: PWN. 1968"
-  },
-  {
-    "year": 1973,
-    "title": "Filozofia kultura wychowanie",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Wrocław: Zakład Narodowy im. Ossolińskich. 1973"
-  },
-  {
-    "year": 1980,
-    "title": "Il bene e il male in Fëdor M. Dostoevskij",
-    "category": "Философия",
-    "lang": "ит",
-    "link": "OCLC: 1507214507",
-    "journal": "Roma: Armando. 1980"
-  },
-  {
-    "year": 1993,
-    "title": "Письма редактора непартийного журнала",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Посмертная публикация писем Гессена как редактора",
-    "journal": "№ 6. С. 526–529"
-  },
-  {
-    "year": 1994,
-    "title": "Моё жизнеописание",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://cyberleninka.ru",
-    "journal": "Вопросы философии. № 7–8"
-  },
-  {
-    "year": 1994,
-    "title": "Мое жизнеописание",
-    "category": "Автобиография",
-    "lang": "рус",
-    "link": "Избранное 2010 (РОССПЭН), с. 772",
-    "journal": ""
-  },
-  {
-    "year": 1995,
-    "title": "Основы педагогики. Введение в прикладную философию (переизд.)",
+    "year": 1935,
+    "title": "Философские основы педагогики (чешск.)",
     "category": "Педагогика",
-    "lang": "рус",
-    "link": "https://www.klex.ru/27ho",
-    "journal": "М.: Школа-Пресс. 1995. 447 с."
+    "lang": "чеш",
+    "link": "—",
+    "journal": "Praha. 1935–1936",
+    "posthumous": false
   },
   {
-    "year": 1997,
-    "title": "Dzieła wybrane. Т. 1–5",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: Wyd. Akademickie Żak. 1997"
-  },
-  {
-    "year": 1998,
-    "title": "Избранные сочинения",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "М.: РОССПЭН, 1998. / Сост. А. Валицкий, Н. Чистякова",
-    "journal": ""
-  },
-  {
-    "year": 1999,
-    "title": "Избранные сочинения (Москва 1999)",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://imwerden.de/publisher-11020-page-1",
-    "journal": "Москва. 1999"
-  },
-  {
-    "year": 2001,
-    "title": "Педагогические сочинения",
+    "year": 1956,
+    "title": "Философские основы педагогики (ит.)",
     "category": "Педагогика",
-    "lang": "рус",
-    "link": "https://search.rsl.ru/ru/record/01000732603",
-    "journal": "Саранск: Красный Октябрь. 2001. 566 с."
-  },
-  {
-    "year": 2003,
-    "title": "Państwo prawa i socjalizm",
-    "category": "Философия",
-    "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Warszawa: Wydawnictwo IFiS PAN. 2003. 388 с."
-  },
-  {
-    "year": 2008,
-    "title": "Diritto e morale (2008 переизд.)",
-    "category": "Философия",
     "lang": "ит",
-    "link": "http://digital.casalini.it/9788860813572",
-    "journal": "Roma: Armando. 2008"
+    "link": "https://search.rsl.ru/ru/record/01005579114",
+    "journal": "Roma: Avio. 1956 (1958",
+    "posthumous": true
   },
   {
-    "year": 2010,
-    "title": "Избранное",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "https://imwerden.de/pdf/gessen_sergej_izbrannoe_2010__ocr.pdf",
-    "journal": "М.: РОССПЭН. 2010. 962 с."
+    "year": 1927,
+    "title": "Лев Толстой как педагог",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. Bd. 1. 1927–28",
+    "posthumous": false
   },
   {
-    "year": 2013,
-    "title": "Upadek utopizmu (1-я польск. публикация)",
-    "category": "Философия",
+    "year": 1929,
+    "title": "Лев Толстой как педагог (польск.)",
+    "category": "Педагогика",
     "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
-    "journal": "Kultura i Wychowanie (Łódź). 2013"
+    "link": "—",
+    "journal": "Przegląd Pedagogiczny. 1925",
+    "posthumous": false
   },
   {
-    "year": 2013,
-    "title": "Письма С.И. Гессена к соредакторам «Современных записок»",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Опубликованные письма в редакцию журнала",
-    "journal": "С. 95–206"
+    "year": 1931,
+    "title": "Основы педагогики (болг.)",
+    "category": "Педагогика",
+    "lang": "болг",
+    "link": "—",
+    "journal": "София. 1931",
+    "posthumous": false
   },
   {
-    "year": 2019,
-    "title": "Difesa della pedagogia (2019 переизд.)",
-    "category": "Философия",
+    "year": 1938,
+    "title": "Основы педагогики (серб.)",
+    "category": "Педагогика",
+    "lang": "серб",
+    "link": "—",
+    "journal": "Белград. 1938",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Основы педагогики (латв.)",
+    "category": "Педагогика",
+    "lang": "латв",
+    "link": "—",
+    "journal": "Рига. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1931,
+    "title": "Основы педагогики (польск.)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/fulldisplay?docid=alma991008885059705066",
+    "journal": "Warszawa: Nasza Księgarnia. 1931",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Советская школа на рубеже пятилетки",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "Нем. версия книги ID 50 (краткая)",
+    "journal": "№ 8. S. 252–259",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Советская школа на рубеже пятилетки",
+    "category": "Педагогика",
+    "lang": "серб",
+    "link": "Серб. пер. книги о советской школе на рубеже пятилетки",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Пятнадцать лет советской школы",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://search.rsl.ru/ru/record/01009279010",
+    "journal": "Langensalza: Verlag von Julius Beltz. 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Пятнадцать лет советской школы (словен.)",
+    "category": "Педагогика",
+    "lang": "словен",
+    "link": "https://search.rsl.ru/ru/record/01005274045",
+    "journal": "Ljubljana: Slovenska Šolska Matica. 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Коммунистические педагоги Советской России",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Рукопись утрачена. Польск.: Chowanna 1933. Чешск.: Pedagogické Rozhledy 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Коммунистические педагоги Советской России",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
+    "journal": "Chowanna. Katowice. 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Школа и демократия",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Школа и демократия (чешск.)",
+    "category": "Педагогика",
+    "lang": "чеш",
+    "link": "https://www.worldcat.org/search?q=Hessen+Skolstvi+demokracie",
+    "journal": "Praha: Nakladatelství Komenského. 1932",
+    "posthumous": false
+  },
+  {
+    "year": 1937,
+    "title": "Что такое единая школа?",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
+    "journal": "Ruch Pedagogiczny. 1936–37",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Что такое единая школа? (словац.)",
+    "category": "Педагогика",
+    "lang": "словац",
+    "link": "—",
+    "journal": "Naša škola. 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Педагогика Джованни Джентиле",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "Ит. кн. изд.: Avio 1934; Signorelli 1940 (ср. ID 72 — 1932)",
+    "journal": "S. 401–422, 479–490",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Педагогика Джованни Джентиле (1-е ит. изд.)",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "1-е ит. изд. (Avio 1934); ср. ID 161 (Cecchini 1937) и ID 162 (Signorelli 1939/40)",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1953,
+    "title": "Педагогика Дьюи (ит.)",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "https://www.worldcat.org/oclc/1404089451",
+    "journal": "Roma: Avio. 1953",
+    "posthumous": true
+  },
+  {
+    "year": 1937,
+    "title": "Педагогика Дьюи (раннее ит. изд.)",
+    "category": "Педагогика",
     "lang": "ит",
     "link": "—",
-    "journal": "Roma: Armando. 2019"
+    "journal": "Roma: Tip. Cecchini. 1937",
+    "posthumous": false
   },
   {
-    "year": 2021,
-    "title": "Три письма С.И. Гессена П.Н. Савицкому",
+    "year": 1934,
+    "title": "Мировоззрение и педагогика",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: ZG TNSW. 1934",
+    "posthumous": false
+  },
+  {
+    "year": 1937,
+    "title": "Мировоззрение и педагогика",
+    "category": "Педагогика",
+    "lang": "чеш",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Praha: Dědictví Komenského. 1937",
+    "posthumous": false
+  },
+  {
+    "year": 1947,
+    "title": "Структура и содержание современной школы",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Łódź: Nowa Księgarnia. 1947",
+    "posthumous": false
+  },
+  {
+    "year": 1949,
+    "title": "Структура и содержание современной школы (ит.)",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "H. Mirecka / L. Volpicelli",
+    "journal": "Roma: Avio. 1949 (5-я перепеч. 1959",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Глобальный метод (болг.)",
     "category": "Философия",
-    "lang": "рус",
-    "link": "Публикация трёх писем Гессена Савицкому",
-    "journal": "№ 1. С. 146–149"
+    "lang": "болг",
+    "link": "—",
+    "journal": "— 1936",
+    "posthumous": false
   },
   {
-    "year": 2024,
-    "title": "Przyczynowość jednostkowa",
+    "year": 1937,
+    "title": "Глобальный метод (серб.)",
+    "category": "Философия",
+    "lang": "серб",
+    "link": "—",
+    "journal": "— 1937",
+    "posthumous": false
+  },
+  {
+    "year": 1943,
+    "title": "Что такое гуманизм?",
     "category": "Философия",
     "lang": "пол",
-    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CPrzyczynowo%C5%9B%C4%87+jednostkowa&tab=BN",
-    "journal": "Kraków: LIBRON – Filip Lohner. 2024"
+    "link": "—",
+    "journal": "Pismo Młodych (Warszawa). 1943",
+    "posthumous": false
   },
   {
-    "year": 2025,
-    "title": "Гессен С.И. Письма Н.А. Ганцу (1926–1930 гг.)",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Публикация писем из лондонского архива",
-    "journal": "№ 9. С. 62–79"
-  },
-  {
-    "year": 2025,
-    "title": "Гессен С.И. Письма Н.А. Ганцу (1931–1935)",
-    "category": "Философия",
-    "lang": "рус",
-    "link": "Публикация писем из лондонского архива",
-    "journal": "№ 10. С. 112–136"
+    "year": 1929,
+    "title": "Борьба утопии и автономии добра... (Достоевский/Соловьёв)",
+    "category": "Литературоведение",
+    "lang": "нем",
+    "link": "https://www.worldcat.org/oclc/1532710991",
+    "journal": "Pädagogische Hochschule. №4. 1929 / Bühl-Baden: Konkordia",
+    "posthumous": false
   },
   {
     "year": 1929,
@@ -1861,15 +347,953 @@
     "category": "Философия",
     "lang": "нем",
     "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
-    "journal": "Logos (Tübingen). T. 18: 1929. z. 3. S. 339–361"
+    "journal": "Logos (Tübingen). T. 18: 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Идея зла в «Бесах» Достоевского",
+    "category": "Литературоведение",
+    "lang": "нем",
+    "link": "—",
+    "journal": "In: F.M. Dostojewski. Praha: Slavist. Seminar d. Deutschen Univ. 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1980,
+    "title": "Добро и зло у Достоевского",
+    "category": "Литературоведение",
+    "lang": "ит",
+    "link": "OCLC: 1507214507",
+    "journal": "Roma: Armando. 1980",
+    "posthumous": true
+  },
+  {
+    "year": 1909,
+    "title": "Индивидуальная причинность",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://ia902209.us.archive.org/27/items/individuellekaus00hess/individuellekaus00hess.pdf",
+    "journal": "Berlin: Reuther & Reichard",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Борьба утопии и автономии добра... (фр.)",
+    "category": "Философия",
+    "lang": "фр",
+    "link": "https://gallica.bnf.fr/ark:/12148/bpt6k4226431m",
+    "journal": "Le Monde Slave. Paris. 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1952,
+    "title": "Добродетели платоновские и евангельские",
+    "category": "Философия",
+    "lang": "ит",
+    "link": "—",
+    "journal": "Roma: Avio. 1952 (2-е изд. 1978",
+    "posthumous": true
+  },
+  {
+    "year": 1924,
+    "title": "Монизм и плюрализм в систематике понятий",
+    "category": "Философия",
+    "lang": "чеш",
+    "link": "https://www.worldcat.org/search?q=Monismus+a+pluralismus+Hessen",
+    "journal": "Ruch filosofický. 1924",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "Новейшая русская философия",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://www.worldcat.org/search?q=Nejnov%C4%9Bj%C5%A1%C3%AD+rusk%C3%A1+filosofie+Hessen",
+    "journal": "Ruch filosofický. 1923",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Личность и темперамент",
+    "category": "Философия",
+    "lang": "чеш",
+    "link": "—",
+    "journal": "Ruch filosofický. 1933–34",
+    "posthumous": false
+  },
+  {
+    "year": 2024,
+    "title": "Индивидуальная причинность (польск. пер. дисс. 1909)",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CPrzyczynowo%C5%9B%C4%87+jednostkowa&tab=BN",
+    "journal": "Kraków: LIBRON – Filip Lohner. 2024",
+    "posthumous": true
+  },
+  {
+    "year": 1930,
+    "title": "Ставрогин как философский образ (нем.)",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "—",
+    "journal": "In: Dostojewsky Studien. Prag–Reichenberg. [1930]",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "О связи физики Галилея с физикой Аристотеля (польск.)",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/106988",
+    "journal": "Przegląd Filozoficzny (Warszawa). R. 31: 1928",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Толстой как мыслитель (нем.)",
+    "category": "Литературоведение",
+    "lang": "нем",
+    "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
+    "journal": "Logos. Internationale Zeitschrift für Philosophie der Kultur (Tübingen). T. 19: 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Трагедия добра... (реферат польск.)",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/106988",
+    "journal": "Przegląd Filozoficzny (Warszawa). R. 31: 1928",
+    "posthumous": false
+  },
+  {
+    "year": 1909,
+    "title": "Александр Герцен",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "",
+    "journal": "В сб.: Von Messias. Leipzig",
+    "posthumous": false
+  },
+  {
+    "year": 1931,
+    "title": "Борьба утопии и автономии добра в мировоззрении Достоевского и Соловьева",
+    "category": "Литературоведение",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 45–46",
+    "posthumous": false
+  },
+  {
+    "year": 1910,
+    "title": "Вводная статья (к 1-му тому «Логоса»)",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://runivers.ru/philosophy/lib/book3292/",
+    "journal": "Логос. Кн. 1",
+    "posthumous": false
+  },
+  {
+    "year": 1909,
+    "title": "Индивидуальная причинность (русск)",
+    "category": "Философия",
+    "lang": "",
+    "link": "",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1924,
+    "title": "Крушение утопизма",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 19",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "Лев Толстой как мыслитель",
+    "category": "Литературоведение",
+    "lang": "рус",
+    "link": "—",
+    "journal": "In: Лев Толстой. Praha: Horanský ústav. 1928",
+    "posthumous": false
+  },
+  {
+    "year": 1910,
+    "title": "Мистика и метафизика",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://runivers.ru/philosophy/lib/book3292/",
+    "journal": "Логос. Кн. 1",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Науки философские и общественные",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Справочное издание к 10-летию Чехословацкой республики",
+    "journal": "С. 273",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Неизданные произведения Достоевского",
+    "category": "Литературоведение",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 32",
+    "posthumous": false
+  },
+  {
+    "year": 1910,
+    "title": "Неославянофильство в философии",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Впервые опубл. в рус. «Логосе»; вошла в Избранное 2010 С. 444–449",
+    "journal": "Кн. уточнить",
+    "posthumous": false
+  },
+  {
+    "year": 1910,
+    "title": "От редакции [к 1-му тому «Логоса»]",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Избранное 2010 (РОССПЭН), с. 395",
+    "journal": "Логос. Кн. 1",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Система физики Галилея и её отношение к системе Аристотеля",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Труды Русского института в Праге. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1911,
+    "title": "Статья о книге Мейерсона «Тождество и реальность»",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Вопросы философии и психологии. Москва. 1911",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Трагедия добра в «Братьях Карамазовых» Достоевского",
+    "category": "Литературоведение",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 35",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Трагедия зла (философский образ Ставрогина)",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://www.odinblago.ru/path/36/3",
+    "journal": "Путь. № 36",
+    "posthumous": false
+  },
+  {
+    "year": 1913,
+    "title": "Философия наказания",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://www.digizeitschriften.de/search?filter%5BObjekttyp%5D%5B1%5D=volume&filter%5BZeitschriften%5D%5B1%5D=51032052X%7CLOG_0000",
+    "journal": "Logos. Jg. 1914",
+    "posthumous": false
+  },
+  {
+    "year": 1916,
+    "title": "Идея нации",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Избранное 2010 (РОССПЭН), с. 504",
+    "journal": "Вопросы войны. 1916",
+    "posthumous": false
+  },
+  {
+    "year": 1917,
+    "title": "Политическая свобода и социализм",
+    "category": "Право и политика",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01004216774",
+    "journal": "Петроград: Н.Н. Карбасников. 1917",
+    "posthumous": false
+  },
+  {
+    "year": 1910,
+    "title": "Политические идеалы жирондистов (1-я публикация)",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://www.rsl.ru/ru/search#q=%D0%93%D0%B5%D1%81%D1%81%D0%B5%D0%BD&sort=none&f[0]=type:book",
+    "journal": "Русская мысль (Москва). Р. 31: 1910",
+    "posthumous": false
+  },
+  {
+    "year": 1917,
+    "title": "Политические идеи жирондистов",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01009182863",
+    "journal": "Москва. 1917",
+    "posthumous": false
+  },
+  {
+    "year": 1916,
+    "title": "Проблема нации",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Вопросы войны. 1916",
+    "posthumous": false
+  },
+  {
+    "year": 1913,
+    "title": "Свобода и дисциплина",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "[Б.м.] (1910–1914)",
+    "posthumous": false
+  },
+  {
+    "year": 1912,
+    "title": "Философия наказания",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://runivers.ru/philosophy/lib/book3292/",
+    "journal": "Логос. Кн. 1–2. С. 183–232",
+    "posthumous": false
+  },
+  {
+    "year": 1917,
+    "title": "Что такое политическая свобода",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Петроград. 1917",
+    "posthumous": false
+  },
+  {
+    "year": 1913,
+    "title": "Что такое политическая свобода?",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "[Б.м.] (1910–1914)",
+    "posthumous": false
+  },
+  {
+    "year": 1957,
+    "title": "Современная демократия",
+    "category": "Право и политика",
+    "lang": "ит",
+    "link": "https://www.worldcat.org/oclc/1507235294",
+    "journal": "Roma: Avio. 1957 (2-е изд. 1961",
+    "posthumous": true
+  },
+  {
+    "year": 2008,
+    "title": "Diritto e morale (2008 переизд.)",
+    "category": "Философия",
+    "lang": "ит",
+    "link": "http://digital.casalini.it/9788860813572",
+    "journal": "Roma: Armando. 2008",
+    "posthumous": true
+  },
+  {
+    "year": 1929,
+    "title": "Теория социализма Х. де Мана (рец.)",
+    "category": "Право и политика",
+    "lang": "нем",
+    "link": "—",
+    "journal": "Zeitschrift für Rechtsphilosophie. 1929",
+    "posthumous": false
   },
   {
     "year": 1949,
     "title": "Права человека... (фр.)",
-    "category": "Экономика",
+    "category": "Философия",
     "lang": "фр",
     "link": "https://www.worldcat.org/search?q=Autour+de+la+nouvelle+D%C3%A9claration+universelle+Maritain",
-    "journal": "In: Autour de la nouvelle Déclaration universelle... Ed. J. Maritain. Paris: Sagittaires. 1949. С. 90–117"
+    "journal": "In: Autour de la nouvelle Déclaration universelle... Ed. J. Maritain. Paris: Sagittaires. 1949",
+    "posthumous": false
+  },
+  {
+    "year": 1947,
+    "title": "Права человека в либерализме... (фр. машинопись)",
+    "category": "Право и политика",
+    "lang": "фр",
+    "link": "https://oac.cdlib.org/findaid/ark:/13030/kt0r29r517/",
+    "journal": "Hoover Institution Archives. Stanford",
+    "posthumous": false
+  },
+  {
+    "year": 1943,
+    "title": "Неделимость свободы и марксизм",
+    "category": "Экономика",
+    "lang": "пол",
+    "link": "—",
+    "journal": "Pismo Młodych (Warszawa). 1943",
+    "posthumous": false
+  },
+  {
+    "year": 2003,
+    "title": "Правовое государство и социализм",
+    "category": "Право и политика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: Wydawnictwo IFiS PAN. 2003. 388 с.",
+    "posthumous": true
+  },
+  {
+    "year": 1949,
+    "title": "Права человека в либерализме социализме и коммунизме",
+    "category": "Право и политика",
+    "lang": "анг",
+    "link": "https://unesdoc.unesco.org/ark:/48223/pf0000068133",
+    "journal": "In: Human Rights. Ed. UNESCO. London & New York",
+    "posthumous": false
+  },
+  {
+    "year": 1948,
+    "title": "Проблема различия права и нравственности в античной философии",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Łódź. 1948",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "К истории и теории социального права",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "Развёрнутая нем. версия; ср. ID 74",
+    "journal": "№ 6. S. 57–75, 244–269",
+    "posthumous": false
+  },
+  {
+    "year": 1951,
+    "title": "[Фрагменты социально-правовых сочинений]",
+    "category": "Право и политика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Łódź. 1951",
+    "posthumous": true
+  },
+  {
+    "year": 1929,
+    "title": "Генрих де Ман как теоретик социализма",
+    "category": "Право и политика",
+    "lang": "рус",
+    "link": "Нем. оригинал — ID 65; полный рус. текст в Избранном 2010. С. 365–392",
+    "journal": "№ 40 (краткая рус. версия)",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Идея социального права",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "По поводу книги Г. Гурвича «L'idée du Droit Social»; нем. версия — ID 74",
+    "journal": "С. 421–435",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "Линцкая программа австрийской с.-д. партии",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 33",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Новые аграрные программы европейских социалистических партий",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 36",
+    "posthumous": false
+  },
+  {
+    "year": 1925,
+    "title": "Либерализм и социализм",
+    "category": "Право и политика",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Кн. 22–23",
+    "posthumous": false
+  },
+  {
+    "year": 1949,
+    "title": "Образование и экономическая жизнь",
+    "category": "Педагогика",
+    "lang": "анг",
+    "link": "https://www.worldcat.org/search?q=Year+Book+of+Education+1949+Evans",
+    "journal": "In: Year Book of Education 1949. London: Evans Brothers",
+    "posthumous": false
+  },
+  {
+    "year": 1951,
+    "title": "Педагогика и экономика мира",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "—",
+    "journal": "Roma: Avio. 1951",
+    "posthumous": true
+  },
+  {
+    "year": 1933,
+    "title": "Итоги культурной пятилетки",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Т. 51–52",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "О пятилетке и проблеме хозяйственной автаркии",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://www.odinblago.ru/noviy_grad/5/6/",
+    "journal": "Новый град. № 5",
+    "posthumous": false
+  },
+  {
+    "year": 1931,
+    "title": "Пятилетка и школьная политика советской власти",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://www.odinblago.ru/noviy_grad/1/7/",
+    "journal": "Новый град. № 1",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Современный кризис (окончание)",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://www.odinblago.ru/noviy_grad/3/7/",
+    "journal": "Новый град. № 4",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Современный кризис и перерождение капитализма (части 1–2)",
+    "category": "Экономика",
+    "lang": "рус",
+    "link": "Новый град. 1932. № 3. С. 60–71; № 4. С. 21–39",
+    "journal": "Новый град. № 3",
+    "posthumous": false
+  },
+  {
+    "year": 1931,
+    "title": "Проблема автономии воспитания",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "—",
+    "journal": "In: Festschrift für Heinrich Rickert. Baden: Konkordia. 1931",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Проблема нравственного воспитания",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1925,
+    "title": "Идея трудовой школы и Дальтон-план (нем.)",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "—",
+    "journal": "Die Erziehung (Leipzig). R. 1: 1925/1926",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Метод Монтессори и его судьба",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://www.worldcat.org/oclc/257475562",
+    "journal": "Halle: Akademischer Verlag. 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Основы педагогики как прикладной философии (ит.)",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "SBN-ID: CUB0342003",
+    "journal": "Palermo: Sandron. 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Фрёбель и Монтессори. Контркритика",
+    "category": "Философия",
+    "lang": "ит",
+    "link": "—",
+    "journal": "Educazione Nazionale. Apr. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1925,
+    "title": "Фрёбель и Монтессори. Опыт теории игры",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. Bd. I. 1925",
+    "posthumous": false
+  },
+  {
+    "year": 1954,
+    "title": "Толстой / Монтессори",
+    "category": "Литературоведение",
+    "lang": "ит",
+    "link": "https://www.worldcat.org/oclc/250340787",
+    "journal": "Roma: Avio. 1954",
+    "posthumous": true
+  },
+  {
+    "year": 1927,
+    "title": "Ещё раз Фрёбель и Монтессори. Контркритика",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. Bd. IV. 1927",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "О понятии и цели нравственного воспитания",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa. 1934",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Нравственное воспитание (нем.)",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung (Leipzig). R. 10: 1934/1935",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Толстой как педагог (к 25-летию смерти)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "",
+    "journal": "№ 4. S. 105–120",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Что такое общее образование?",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. 1934",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Проблема автономии образования (польск.)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
+    "journal": "Ruch Pedagogiczny (Warszawa). R. 24: 1934/1935",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "И.Г. Песталоцци: к столетию со дня смерти",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 24",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "Идея трудовой школы и лабораторный план (Dalton Plan): к теории урока",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Т. 5–6",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Лев Толстой как педагог",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 29–30",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Мировоззрение и идеология",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Современные записки. Т. 57",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Мировоззрение и образование",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Русская школа (Прага). 1934. № 1. С. 3–23",
+    "journal": "Русская школа (Прага). Т. 1",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "Новая литература о Песталоцци",
+    "category": "Литературоведение",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 24",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "О понятии и цели нравственного образования",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Жизнь и смерть. Сб. памяти Н.Е. Осипова. Прага. Т. 2",
+    "posthumous": false
+  },
+  {
+    "year": 1919,
+    "title": "Об академической свободе",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Известия совета студенческих старост. Томск",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Основы педагогики (серб.). 1-е изд.",
+    "category": "Педагогика",
+    "lang": "серб",
+    "link": "1-е серб. изд.; в CSV ID 10 — изд. 1938 г.",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Основы педагогики (болг.). Т. 1",
+    "category": "Педагогика",
+    "lang": "болг",
+    "link": "Пер. с рукописи; вероятно 2-е болг. изд. (1-е — 1931, ID 8)",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "Основы педагогики. Введение в прикладную философию",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "https://www.klex.ru/27ho",
+    "journal": "Берлин: Слово. 1923 / М.: Школа-Пресс 1995",
+    "posthumous": false
+  },
+  {
+    "year": 1995,
+    "title": "Основы педагогики. Введение в прикладную философию (переизд.)",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "https://www.klex.ru/27ho",
+    "journal": "М.: Школа-Пресс. 1995. 447 с.",
+    "posthumous": true
+  },
+  {
+    "year": 1919,
+    "title": "Очерки философской педагогики. Педагогика как наука",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Журн. Министерства народного просвещения. Омск/Томск",
+    "posthumous": false
+  },
+  {
+    "year": 1924,
+    "title": "Пауль Наторп",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 10–11",
+    "posthumous": false
+  },
+  {
+    "year": 1924,
+    "title": "Педагогика Канта: к 200-летию со дня рождения",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 8",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "Педагогика Платона и современность",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Вестник самообразования. Берлин",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Судьба коммунистического идеала образования",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://www.odinblago.ru/noviy_grad/6/4/",
+    "journal": "Новый град. № 6",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Фребель и Монтессори: доклад на 1-м съезде по дошкольному воспитанию",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 27",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "Фребель и Монтессори: очерк философской теории игры",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 1",
+    "posthumous": false
+  },
+  {
+    "year": 1920,
+    "title": "Что такое трудовая школа?",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Свободная трудовая школа. Томск. Сб. 2",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Труды Кершенштайнера",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. 1932",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Философия воспитания Дж. Джентиле",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. 1932",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "Школа в Советской России",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "",
+    "journal": "S. 40–59; 110–125",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Английская традиция воспитания",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "—",
+    "journal": "Pädagogische Hochschule. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "«Безмятежная школа» Ломбардо Радиче",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://relbib.de/Record/130088684",
+    "journal": "Die Erziehung. 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Образовательная политика в Советской России",
+    "category": "Право и политика",
+    "lang": "анг",
+    "link": "https://archive.org/details/dli.ministry.01826",
+    "journal": "London: P.S. King & Son. 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Глобальный метод обучения чтению",
+    "category": "Педагогика",
+    "lang": "чеш",
+    "link": "—",
+    "journal": "Praha: Dědictví Komenského. 1933/1935",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Педагогическое учение Джона Дьюи",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://www.worldcat.org/oclc/1508202552",
+    "journal": "Leipzig: Verlag von Quelle & Meyer. 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Коммунистическая педагогика в Советской России",
+    "category": "Педагогика",
+    "lang": "чеш",
+    "link": "—",
+    "journal": "Pedagogické Rozhledy. 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "Народное просвещение в Советской России (фр.)",
+    "category": "Философия",
+    "lang": "фр",
+    "link": "https://gallica.bnf.fr/ark:/12148/bpt6k4226431m",
+    "journal": "Le Monde Slave (Paris). 1927",
+    "posthumous": false
   },
   {
     "year": 1954,
@@ -1877,14 +1301,844 @@
     "category": "Педагогика",
     "lang": "ит",
     "link": "https://www.worldcat.org/oclc/72344409",
-    "journal": "Roma: Avio. 1954"
+    "journal": "Roma: Avio. 1954",
+    "posthumous": true
+  },
+  {
+    "year": 1934,
+    "title": "Педагогика и просвещение в Советской России",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Lwów: Książnica-Atlas. 1934",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Польская школьная реформа",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "—",
+    "journal": "Kultura Pedagogiczna (Kraków). R. 1: 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Школа и государство во Франции и Англии",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://ld.zdb-services.de/resource/514054-7",
+    "journal": "Zeitschrift für die Geschichte der Pädagogik. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1959,
+    "title": "Демократическая школа и школьные системы",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "—",
+    "journal": "Roma: Armando. 1959",
+    "posthumous": true
+  },
+  {
+    "year": 1948,
+    "title": "Образование в славянских странах",
+    "category": "Педагогика",
+    "lang": "анг",
+    "link": "https://www.worldcat.org/search?q=Year+Book+of+Education+1948+Evans",
+    "journal": "In: Year Book of Education 1948. London: Evans Brothers",
+    "posthumous": false
   },
   {
     "year": 1931,
     "title": "Государство и просвещение во Франции с нач. XIX в. до наст. времени",
+    "category": "Право и политика",
+    "lang": "нем",
+    "link": "Ср. ID 108 (Schule und Staat... 1929) — разные статьи",
+    "journal": "№ 2. S. 129–153",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Просвещение в англосаксонских странах",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
+    "journal": "Chowanna (Katowice). 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Школа в России и революция (польск.)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
+    "journal": "Ruch Pedagogiczny (Warszawa). R. 25: 1935/1936",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Сравнительное описание школьного дела",
     "category": "Педагогика",
     "lang": "нем",
+    "link": "—",
+    "journal": "In: Handbuch der Pädagogik. Hrsg. Nohl und Pallat. 1928",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "О просвещении в англосаксонских странах",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "Польск. пар.: Szkolnictwo w krajach anglosaskich — ID 99",
+    "journal": "№ 11. S. 50–58",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Глобальная «метода» или глобальное обучение грамоте?",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Русская школа (Прага)",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Глобальная метода",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Русская школа (Прага). 1935. № 2–3. С. 25–26",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Государство и школа во Франции и Англии (журн. версия)",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Журнальная публикация; отдельная брошюра — ID 35",
+    "journal": "№ 1",
+    "posthumous": false
+  },
+  {
+    "year": 1930,
+    "title": "Государство и школа во Франции и Англии (рус. брошюра)",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Родная школа (Резекне). 1930. № 1 / Рига: Союз русских учителей в Латвии, 1930",
+    "journal": "Рига: Союз русских учителей в Латвии. 1930",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Десять лет советской школы",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 28",
+    "posthumous": false
+  },
+  {
+    "year": 1998,
+    "title": "Избранные сочинения",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "М.: РОССПЭН, 1998. / Сост. А. Валицкий, Н. Чистякова",
+    "journal": "",
+    "posthumous": true
+  },
+  {
+    "year": 1929,
+    "title": "Иностранцы-очевидцы о советской школе",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 31",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "К открытию Русского Педагогического Института в Праге",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 2–3",
+    "posthumous": false
+  },
+  {
+    "year": 1929,
+    "title": "Кризис демократии и новейшая эволюция школьных систем",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "В сб. памяти П.Н. Милюкова. Прага",
+    "posthumous": false
+  },
+  {
+    "year": 1994,
+    "title": "Мое жизнеописание",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "Избранное 2010 (РОССПЭН), с. 772",
+    "journal": "",
+    "posthumous": true
+  },
+  {
+    "year": 1926,
+    "title": "Органы управления народным просвещением в СССР",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 18",
+    "posthumous": false
+  },
+  {
+    "year": 1917,
+    "title": "Политические идеи жирондистов: к истории",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "М.: Московская просветительская комиссия, 1917",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1925,
+    "title": "Последняя фаза советской педагогики",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Принцип дифференциации",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Русская школа. 1936. № 2. С. 7",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Принцип дифференциации в системе единой школы",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Русская школа (Прага). 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Проблема единой школы",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Русская школа (Прага). 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Проблемы единой школы",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Русская школа. 1936. № 1. С. 5–12",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1927,
+    "title": "Фребель и Монтессори: доклад",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Русская школа за рубежом. 1927–1928. Кн. 27. С. 345–363",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Школа в России и революция",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Польск. версия: Ruch Pedagogiczny 1935 — ID 110",
+    "journal": "№ 59. С. 445–458",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "Школа и хозяйство",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Русская школа. 1938. № 2 (10). С. 8–14; № 3 (11). С. 9–16",
+    "journal": "№ 2 (10). С. 8–14; № 3 (11). С. 9–16",
+    "posthumous": false
+  },
+  {
+    "year": 1931,
+    "title": "Школьная политика советской власти за 1927–1930 гг.",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "Продолжение ID 30 (Десять лет советской школы)",
+    "journal": "Кн. 34. С. 385–420",
+    "posthumous": false
+  },
+  {
+    "year": 1928,
+    "title": "Школьная система Чехословакии",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 29–30",
+    "posthumous": false
+  },
+  {
+    "year": 1925,
+    "title": "Эволюция единой трудовой школы в Советской России",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "http://kramerius.nkp.cz/kramerius/handle/ABA001/31110585",
+    "journal": "Русская школа за рубежом. Кн. 15–16",
+    "posthumous": false
+  },
+  {
+    "year": 1948,
+    "title": "Анкета о соревновании в школе",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "—",
+    "journal": "Życie Szkoły (Warszawa). 1948",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Должно ли образование быть классовым?",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "—",
+    "journal": "Praca Oświatowa. 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Принцип целостности в педагогике",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "—",
+    "journal": "Доклад на VIII Межд. философском конгрессе. 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1949,
+    "title": "Защита педагогики",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "OCLC: 632551747",
+    "journal": "Roma: Avio. 1949 (3-е изд. 1952",
+    "posthumous": false
+  },
+  {
+    "year": 2019,
+    "title": "Difesa della pedagogia (2019 переизд.)",
+    "category": "Философия",
+    "lang": "ит",
+    "link": "—",
+    "journal": "Roma: Armando. 2019",
+    "posthumous": true
+  },
+  {
+    "year": 1936,
+    "title": "Два типа государственного воспитания",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
+    "journal": "Praca Oświatowa (Warszawa). R. 2: 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "Ломбардо-Радиче и метод Агацци",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "http://pbc.up.krakow.pl/dlibra/publication/889",
+    "journal": "Przedszkole (Warszawa). 1938–1939",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Идея общего образования в XIX в. (польск.)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "http://pbc.up.krakow.pl/dlibra/publication/889",
+    "journal": "Kultura i Wychowanie (Warszawa). R. 4: 1936/1937",
+    "posthumous": false
+  },
+  {
+    "year": 1962,
+    "title": "Идеология и автономия воспитания и педагогики",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "—",
+    "journal": "Roma: Armando. 1962",
+    "posthumous": true
+  },
+  {
+    "year": 1933,
+    "title": "Сущность и значение мировоззрения",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: T.N.S.W. 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1960,
+    "title": "Педагогический идеализм в Италии",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "https://www.worldcat.org/oclc/250340019",
+    "journal": "Roma: Armando. 1960",
+    "posthumous": true
+  },
+  {
+    "year": 1939,
+    "title": "Педагогика Дж. Джентиле",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "—",
+    "journal": "Roma: Signorelli. 1939/1940",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "О демократии",
+    "category": "Право и политика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Kraków: Krakowska Spółka Wydawnicza. 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "О демократии (журн. статья)",
+    "category": "Право и политика",
+    "lang": "пол",
+    "link": "https://www.wbc.poznan.pl/dlibra/publication/280609",
+    "journal": "Przegląd Współczesny (Warszawa). T. 52: 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "Об опасности социологизма в педагогике",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: Nasza Księgarnia. 1938",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "О социологизме в педагогике",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "—",
+    "journal": "Przegląd socjologiczny. 1938",
+    "posthumous": false
+  },
+  {
+    "year": 1939,
+    "title": "Об антиномиях и единстве воспитания",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://delibra.bg.polsl.pl/dlibra/publication/83051",
+    "journal": "Lwów: Książnica-Atlas. 1939",
+    "posthumous": false
+  },
+  {
+    "year": 1945,
+    "title": "Педагог (Защита педагогики)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Ruch Pedagogiczny. 1945–46",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Мировоззрение и педагогика (журн. статья)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "Журн. статья; книжное изд. — ID 83",
+    "journal": "№ 2. S. 121–138",
+    "posthumous": false
+  },
+  {
+    "year": 1946,
+    "title": "Предисловие [к метод. пособию]",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "—",
+    "journal": "J.A. Maćkowiakowie. Naturalne drogi nauki czytania i pisania. Poznań: Księgarnia Św. Wojciecha. 1946",
+    "posthumous": false
+  },
+  {
+    "year": 1945,
+    "title": "Предисловие [к букварю Мачковяков]",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "—",
+    "journal": "J.A. Maćkowiakowie. O Jacku który uczył się czytać. Konin: Druk. Państwowa. 1945",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Профессионально-дополнительная школа и её место в системе образования",
+    "category": "Педагогика",
+    "lang": "пол",
     "link": "",
-    "journal": "Zeitschrift für Geschichte der Erziehung und des Unterrichts. R. 21: 1931. z. 2. S. 129–153"
+    "journal": "№ 9. S. 193–211",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "Школа и демократия на переломе",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any,contains,Szko%C5%82a%20i%20demokracja%20na%20prze%C5%82omie%20Hessen",
+    "journal": "Warszawa: Nasza Księgarnia. 1938",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "Народная школа",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: Nasza Księgarnia. 1938",
+    "posthumous": false
+  },
+  {
+    "year": 1937,
+    "title": "Специальная школа и общая педагогика",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Szkoła Specjalna. 1937",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Мировоззрение идеология образование",
+    "category": "Педагогика",
+    "lang": "нем",
+    "link": "https://search.rsl.ru/ru/record/01009279011",
+    "journal": "Praha: Russkij svobodnyj universitet. 1934",
+    "posthumous": false
+  },
+  {
+    "year": 1935,
+    "title": "Мировоззрение и идеология (брошюра)",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Прага: Русский народный университет. 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1938,
+    "title": "Принцип целостности на высших ступенях обучения",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "http://pbc.up.krakow.pl/dlibra/publication/889",
+    "journal": "Kultura i Wychowanie (Warszawa). R. 5: 1938",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Принцип структуры в педагогике",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
+    "journal": "Chowanna. Katowice. 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Принцип тотальности в педагогике (польск.)",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://www.sbc.org.pl/dlibra/publication/29895",
+    "journal": "Chowanna (Katowice). R. 6: 1935",
+    "posthumous": false
+  },
+  {
+    "year": 1956,
+    "title": "Автобиография: Русская педагогика XX века",
+    "category": "Педагогика",
+    "lang": "ит",
+    "link": "https://www.worldcat.org/oclc/1507199525",
+    "journal": "Roma: Armando. 1956",
+    "posthumous": true
+  },
+  {
+    "year": 1932,
+    "title": "Проблема социального права (рец.)",
+    "category": "Философия",
+    "lang": "нем",
+    "link": "—",
+    "journal": "Zeitschrift für Rechtsphilosophie. 1932",
+    "posthumous": false
+  },
+  {
+    "year": 1947,
+    "title": "Моя жизнь (польск.)",
+    "category": "Автобиография",
+    "lang": "пол",
+    "link": "—",
+    "journal": "Łódź. 1947",
+    "posthumous": false
+  },
+  {
+    "year": 2025,
+    "title": "Гессен С.И. Письма Н.А. Ганцу (1926–1930 гг.)",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "Публикация писем из лондонского архива",
+    "journal": "№ 9. С. 62–79",
+    "posthumous": true
+  },
+  {
+    "year": 2025,
+    "title": "Гессен С.И. Письма Н.А. Ганцу (1931–1935)",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "Публикация писем из лондонского архива",
+    "journal": "№ 10. С. 112–136",
+    "posthumous": true
+  },
+  {
+    "year": 1945,
+    "title": "Моя жизнь (Moâ žizn') — автобиография",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "https://oac.cdlib.org/findaid/ark:/13030/kt0r29r517/",
+    "journal": "Hoover Institution Archives. Stanford",
+    "posthumous": false
+  },
+  {
+    "year": 1994,
+    "title": "Моё жизнеописание",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "https://cyberleninka.ru",
+    "journal": "Вопросы философии. № 7–8",
+    "posthumous": true
+  },
+  {
+    "year": 2013,
+    "title": "Письма С.И. Гессена к соредакторам «Современных записок»",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "Опубликованные письма в редакцию журнала",
+    "journal": "С. 95–206",
+    "posthumous": true
+  },
+  {
+    "year": 1993,
+    "title": "Письма редактора непартийного журнала",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "Посмертная публикация писем Гессена как редактора",
+    "journal": "№ 6. С. 526–529",
+    "posthumous": true
+  },
+  {
+    "year": 1927,
+    "title": "Письмо С.И. Гессена к В.Ф. Булгакову. 11 июля 1927 г.",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "",
+    "journal": "Ф. 2226. Оп. 1. Ед. хр. 594",
+    "posthumous": false
+  },
+  {
+    "year": 2021,
+    "title": "Три письма С.И. Гессена П.Н. Савицкому",
+    "category": "Автобиография",
+    "lang": "рус",
+    "link": "Публикация трёх писем Гессена Савицкому",
+    "journal": "№ 1. С. 146–149",
+    "posthumous": true
+  },
+  {
+    "year": 1935,
+    "title": "Русский для каждого [псевд. С. Макаров]",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "Ср. ID 160 (Ruština pro Čechy, Orbis 1933) — другое заглавие и издатель",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1933,
+    "title": "Русский язык для чехов [псевд. С. Макаров]",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "—",
+    "journal": "Praha: Orbis. 1933",
+    "posthumous": false
+  },
+  {
+    "year": 1997,
+    "title": "Избранные труды (польск.)",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: Wyd. Akademickie Żak. 1997",
+    "posthumous": true
+  },
+  {
+    "year": 1973,
+    "title": "Философия культура воспитание",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Wrocław: Zakład Narodowy im. Ossolińskich. 1973",
+    "posthumous": true
+  },
+  {
+    "year": 1968,
+    "title": "Исследования по философии культуры",
+    "category": "Философия",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: PWN. 1968",
+    "posthumous": true
+  },
+  {
+    "year": 2010,
+    "title": "Избранное",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/pdf/gessen_sergej_izbrannoe_2010__ocr.pdf",
+    "journal": "М.: РОССПЭН. 2010. 962 с.",
+    "posthumous": true
+  },
+  {
+    "year": 1999,
+    "title": "Избранные сочинения (Москва 1999)",
+    "category": "Философия",
+    "lang": "рус",
+    "link": "https://imwerden.de/publisher-11020-page-1",
+    "journal": "Москва. 1999",
+    "posthumous": true
+  },
+  {
+    "year": 2001,
+    "title": "Педагогические сочинения",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01000732603",
+    "journal": "Саранск: Красный Октябрь. 2001. 566 с.",
+    "posthumous": true
+  },
+  {
+    "year": 1929,
+    "title": "Педагогическая философия Дьюи (болг.)",
+    "category": "Педагогика",
+    "lang": "болг",
+    "link": "—",
+    "journal": "Učilišten Pregled. 1929",
+    "posthumous": false
+  },
+  {
+    "year": 1936,
+    "title": "Ручной труд в общеобразовательной школе",
+    "category": "Педагогика",
+    "lang": "пол",
+    "link": "https://katalogi.bn.org.pl/discovery/search?query=any%2Ccontains%2CHessen%20Sergiusz&tab=BN",
+    "journal": "Warszawa: Towarzystwo Miłośników Robót Ręcznych. 1936",
+    "posthumous": false
+  },
+  {
+    "year": 1939,
+    "title": "Русская педагогика XX века (серб.)",
+    "category": "Педагогика",
+    "lang": "серб",
+    "link": "—",
+    "journal": "Učitel. Белград. 1939",
+    "posthumous": false
+  },
+  {
+    "year": 1932,
+    "title": "Георг Кершенштейнер",
+    "category": "Философия",
+    "lang": "болг",
+    "link": "",
+    "journal": "Кн. 5. С. 1129–1153",
+    "posthumous": false
+  },
+  {
+    "year": 1934,
+    "title": "Фрёбель и Монтессори (серб.)",
+    "category": "Философия",
+    "lang": "серб",
+    "link": "Серб. пер. статьи «Фребель и Монтессори»",
+    "journal": "",
+    "posthumous": false
+  },
+  {
+    "year": 1923,
+    "title": "Труд и игра. Школа и демократия",
+    "category": "Педагогика",
+    "lang": "рус",
+    "link": "",
+    "journal": "Томск",
+    "posthumous": false
+  },
+  {
+    "year": 1908,
+    "title": "Философия истории",
+    "category": "Переводы",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01003752339",
+    "journal": "С.-Петербург: Жуковский",
+    "posthumous": false
+  },
+  {
+    "year": 1908,
+    "title": "Право современного государства",
+    "category": "Право и политика",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01003528173",
+    "journal": "С.-Петербург: Мартынов",
+    "posthumous": false
+  },
+  {
+    "year": 1909,
+    "title": "Маркс или Кант?",
+    "category": "Экономика",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01003764346",
+    "journal": "С.-Петербург: Жуковский",
+    "posthumous": false
+  },
+  {
+    "year": 1910,
+    "title": "Время и свобода воли",
+    "category": "Переводы",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01003765317",
+    "journal": "Москва: Рус. мысль",
+    "posthumous": false
+  },
+  {
+    "year": 1911,
+    "title": "Науки о природе и науки о культуре",
+    "category": "Переводы",
+    "lang": "рус",
+    "link": "https://search.rsl.ru/ru/record/01003783921",
+    "journal": "С.-Петербург: Образование",
+    "posthumous": false
   }
 ]

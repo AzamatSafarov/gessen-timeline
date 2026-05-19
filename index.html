@@ -3,31 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Сергей Иосифович Гессен — Таймлайн работ</title>
+<title>Сергей Иосифович Гессен — Полный таймлайн 238 работ</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 <style>
 body { margin: 0; padding: 0; background: #0a0a0f; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; }
 #canvas-container { width: 100vw; height: 100vh; }
-h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.3px; z-index: 10; }
-.subtitle { position: fixed; top: 40px; left: 24px; color: #8888a0; font-size: 13px; z-index: 10; }
-.legend { position: fixed; top: 70px; left: 24px; z-index: 10; display: flex; gap: 18px; flex-wrap: wrap; }
-.legend-item { display: flex; align-items: center; gap: 6px; color: #aaaab8; font-size: 12px; cursor: pointer; transition: opacity 0.2s; user-select: none; }
+h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 20px; font-weight: 500; margin: 0; letter-spacing: -0.3px; z-index: 10; }
+.subtitle { position: fixed; top: 38px; left: 24px; color: #8888a0; font-size: 12px; z-index: 10; }
+.legend { position: fixed; top: 66px; left: 24px; z-index: 10; display: flex; gap: 14px; flex-wrap: wrap; max-width: 70vw; }
+.legend-item { display: flex; align-items: center; gap: 5px; color: #aaaab8; font-size: 11px; cursor: pointer; transition: opacity 0.2s; user-select: none; }
 .legend-item:hover { opacity: 0.7; }
-.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
-.tooltip { position: fixed; background: rgba(20,20,30,0.95); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 14px 18px; pointer-events: none; opacity: 0; transition: opacity 0.15s; max-width: 320px; z-index: 100; }
+.legend-item.off { opacity: 0.3; text-decoration: line-through; }
+.legend-dot { width: 9px; height: 9px; border-radius: 50%; }
+.legend-dot.ring { border: 2px solid; background: transparent; }
+.tooltip { position: fixed; background: rgba(20,20,30,0.96); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 14px 18px; pointer-events: none; opacity: 0; transition: opacity 0.15s; max-width: 340px; z-index: 100; }
 .tooltip.show { opacity: 1; }
 .tooltip-title { color: #f0f0f5; font-size: 14px; font-weight: 500; margin-bottom: 6px; line-height: 1.35; }
 .tooltip-meta { color: #666680; font-size: 11px; line-height: 1.5; }
 .tooltip-cat { display: inline-block; padding: 1px 8px; border-radius: 12px; font-size: 10px; margin-top: 6px; }
+.tooltip-posthumous { display: inline-block; padding: 1px 6px; border-radius: 8px; font-size: 9px; margin-top: 6px; margin-left: 6px; background: rgba(255,200,100,0.12); color: #ffcd75; }
 .controls { position: fixed; bottom: 20px; right: 24px; z-index: 10; display: flex; gap: 8px; }
-.control-btn { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); color: #aaaab8; padding: 6px 14px; border-radius: 8px; font-size: 12px; cursor: pointer; transition: all 0.2s; }
+.control-btn { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); color: #aaaab8; padding: 5px 12px; border-radius: 8px; font-size: 11px; cursor: pointer; transition: all 0.2s; }
 .control-btn:hover { background: rgba(255,255,255,0.1); color: #e0e0e8; }
+.control-btn.active { background: rgba(255,200,100,0.15); border-color: rgba(255,200,100,0.3); color: #ffcd75; }
 .active-cats { position: fixed; bottom: 20px; left: 24px; z-index: 10; color: #555570; font-size: 11px; }
-.author-footer { position: fixed; bottom: 6px; right: 24px; z-index: 10; color: #3a3a50; font-size: 11px; letter-spacing: -0.2px; }
+.author-footer { position: fixed; bottom: 4px; right: 24px; z-index: 10; color: #3a3a50; font-size: 10px; letter-spacing: -0.2px; }
 </style>
 </head>
 <body>
-<h1>Сергей Иосифович Гессен <span style="color:#666680;font-size:16px">(1887–1950)</span></h1>
+<h1>Сергей Иосифович Гессен <span style="color:#666680;font-size:14px">(1887–1950)</span></h1>
 <div class="subtitle" id="subtitle">Загрузка…</div>
 
 <div class="legend" id="legend"></div>
@@ -37,17 +41,20 @@ h1 { position: fixed; top: 12px; left: 24px; color: #e8e8ec; font-size: 22px; fo
 <div class="tooltip" id="tooltip">
   <div class="tooltip-title"></div>
   <div class="tooltip-meta"></div>
-  <div class="tooltip-cat"></div>
+  <div>
+    <span class="tooltip-cat"></span><span class="tooltip-posthumous"></span>
+  </div>
 </div>
 
 <div class="controls">
+  <button class="control-btn" id="btn-posthumous" onclick="togglePosthumous()">☀ Постхумные: вкл</button>
   <button class="control-btn" onclick="resetZoom()">Сбросить zoom</button>
   <button class="control-btn" onclick="togglePlay()">▶ Автовоспроизведение</button>
 </div>
 
 <div class="active-cats" id="active-cats"></div>
 
-<div class="author-footer">Собрание сочинений · С.И. Гессен (1887–1950) · Компиляция: Azamat Safarov</div>
+<div class="author-footer">Собрание сочинений · С.И. Гессен (1887–1950) · 238 работ · Компиляция: Azamat Safarov</div>
 
 <script>
 let timelineData = [];
@@ -66,10 +73,11 @@ const categoryColors = {
 const categoryOrder = ['Философия', 'Педагогика', 'Право и политика', 'Литературоведение', 'Автобиография', 'Переводы', 'Экономика'];
 
 let activeCategories = new Set(categoryOrder);
+let showPosthumous = true;
 let hovered = null;
 let selectedYear = null;
 let playMode = false;
-let playYear = 1909;
+let playYear = 1905;
 let zoom = 1;
 let panX = 0;
 let isDragging = false;
@@ -79,21 +87,20 @@ fetch('gessen_timeline.json')
   .then(r => r.json())
   .then(data => {
     timelineData = data;
-    filteredData = [...timelineData];
+    filterData();
     createLegend();
     updateStats();
-    document.getElementById('subtitle').textContent = `Таймлайн ${timelineData.length} работ · 1909–1950 · интерактивная визуализация`;
+    const pre = timelineData.filter(d => !d.posthumous).length;
+    const post = timelineData.filter(d => d.posthumous).length;
+    document.getElementById('subtitle').textContent = `Таймлайн ${timelineData.length} работ · ${1908}–${1950} (${pre} при жизни) + ${1951}–${2025} (${post} посмертно) · интерактивная визуализация`;
   })
   .catch(() => {
     timelineData = [
-      {year:1909, title:'Основные идеи философии Риккерта', category:'Философия', lang:'рус', link:'', journal:''},
-      {year:1917, title:'Политические идеи жирондистов', category:'Право и политика', lang:'рус', link:'', journal:''},
-      {year:1923, title:'Основы педагогики', category:'Педагогика', lang:'рус', link:'', journal:''},
-      {year:1930, title:'Государство и школа во Франции и Англии', category:'Педагогика', lang:'рус', link:'', journal:''},
-      {year:1935, title:'Правовое государство и социализм', category:'Право и политика', lang:'рус', link:'', journal:''},
-      {year:1937, title:'В двух веках. Жизненный отчет', category:'Автобиография', lang:'рус', link:'', journal:''},
+      {year:1909, title:'Индивидуальная причинность', category:'Философия', lang:'рус', link:'', journal:'', posthumous:false},
+      {year:1927, title:'Философские основы педагогики', category:'Педагогика', lang:'чеш', link:'', journal:'', posthumous:false},
+      {year:2013, title:'Крушение утопизма (польск. пер.)', category:'Философия', lang:'пол', link:'', journal:'', posthumous:true},
     ];
-    filteredData = [...timelineData];
+    filterData();
     createLegend();
   });
 
@@ -102,11 +109,17 @@ function createLegend() {
   el.innerHTML = '';
   categoryOrder.forEach(cat => {
     const div = document.createElement('div');
-    div.className = 'legend-item';
+    div.className = 'legend-item' + (activeCategories.has(cat) ? '' : ' off');
     div.innerHTML = `<div class="legend-dot" style="background:${categoryColors[cat]}"></div><span>${cat}</span>`;
     div.onclick = () => toggleCategory(cat);
     el.appendChild(div);
   });
+  // Posthumous legend
+  const postDiv = document.createElement('div');
+  postDiv.className = 'legend-item';
+  postDiv.innerHTML = `<div class="legend-dot ring" style="border-color:#ffcd75"></div><span style="color:#ffcd75">постхумные</span>`;
+  postDiv.style.cursor = 'default';
+  el.appendChild(postDiv);
 }
 
 function toggleCategory(cat) {
@@ -115,17 +128,37 @@ function toggleCategory(cat) {
   } else {
     activeCategories.add(cat);
   }
+  createLegend();
+  filterData();
+  updateStats();
+}
+
+function togglePosthumous() {
+  showPosthumous = !showPosthumous;
+  const btn = document.getElementById('btn-posthumous');
+  if (showPosthumous) {
+    btn.textContent = '☀ Постхумные: вкл';
+    btn.classList.add('active');
+  } else {
+    btn.textContent = '☀ Постхумные: выкл';
+    btn.classList.remove('active');
+  }
   filterData();
   updateStats();
 }
 
 function filterData() {
-  filteredData = timelineData.filter(d => activeCategories.has(d.category));
+  filteredData = timelineData.filter(d => {
+    if (!activeCategories.has(d.category)) return false;
+    if (!showPosthumous && d.posthumous) return false;
+    return true;
+  });
 }
 
 function updateStats() {
-  const el = document.getElementById('active-cats');
-  el.textContent = `Показано: ${filteredData.length} работ · Активно категорий: ${activeCategories.size}`;
+  const pre = filteredData.filter(d => !d.posthumous).length;
+  const post = filteredData.filter(d => d.posthumous).length;
+  document.getElementById('active-cats').textContent = `Показано: ${filteredData.length} · При жизни: ${pre} · Посмертно: ${post} · Категорий: ${activeCategories.size}`;
 }
 
 function resetZoom() {
@@ -137,7 +170,7 @@ function resetZoom() {
 function togglePlay() {
   playMode = !playMode;
   if (playMode) {
-    playYear = 1909;
+    playYear = 1905;
     selectedYear = null;
   }
 }
@@ -159,12 +192,12 @@ function draw() {
   const chartW = width - margin.left - margin.right;
   
   if (playMode && frameCount % 3 === 0) {
-    playYear += 0.5;
-    if (playYear > 1950) playYear = 1909;
+    playYear += 0.8;
+    if (playYear > 2030) playYear = 1905;
   }
   
-  const yearMin = 1908;
-  const yearMax = 1955;
+  const yearMin = 1905;
+  const yearMax = 2030;
   const yearRange = yearMax - yearMin;
   const baseScale = chartW / yearRange;
   const scale = baseScale * zoom;
@@ -173,9 +206,28 @@ function draw() {
     return margin.left + panX + (y - yearMin) * scale;
   }
   
+  // Vertical divider at 1950
+  const x1950 = xForYear(1950);
+  if (x1950 > margin.left && x1950 < width - margin.right) {
+    stroke(255, 255, 100, 30);
+    strokeWeight(2);
+    drawingContext.setLineDash([8, 4]);
+    line(x1950, margin.top, x1950, height - margin.bottom);
+    drawingContext.setLineDash([]);
+    noStroke();
+    fill(255, 200, 100, 120);
+    textSize(11);
+    textAlign(CENTER, TOP);
+    text('— 1950 —', x1950, margin.top - 20);
+    textSize(9);
+    fill(255, 200, 100, 80);
+    text('смерть Гессена', x1950, margin.top - 8);
+  }
+  
+  // Grid
   stroke(30, 30, 45);
   strokeWeight(1);
-  for (let y = yearMin; y <= yearMax; y += 2) {
+  for (let y = yearMin; y <= yearMax; y += 5) {
     const x = xForYear(y);
     if (x > margin.left && x < width - margin.right) {
       line(x, margin.top, x, height - margin.bottom);
@@ -189,17 +241,20 @@ function draw() {
   for (let y = yearMin; y <= yearMax; y += 1) {
     const x = xForYear(y);
     if (x > margin.left && x < width - margin.right) {
-      if (y % 5 === 0) {
+      if (y % 10 === 0) {
         fill(150, 150, 170);
         textSize(12);
+      } else if (y % 5 === 0) {
+        fill(100, 100, 120);
+        textSize(10);
       } else {
-        fill(60, 60, 80);
-        textSize(9);
+        fill(45, 45, 60);
+        textSize(8);
       }
       text(y, x, height - margin.bottom + 10);
-      stroke(y % 5 === 0 ? 100 : 50, y % 5 === 0 ? 100 : 50, y % 5 === 0 ? 120 : 70);
+      stroke(y % 5 === 0 ? 80 : 40, y % 5 === 0 ? 80 : 40, y % 5 === 0 ? 100 : 55);
       strokeWeight(y % 5 === 0 ? 2 : 1);
-      line(x, height - margin.bottom, x, height - margin.bottom + 6);
+      line(x, height - margin.bottom, x, height - margin.bottom + 5);
       noStroke();
     }
   }
@@ -245,63 +300,123 @@ function draw() {
     if (catIdx === -1) return;
     
     const bandY = margin.top + catIdx * bandH;
-    const density = items.length;
-    const maxR = min(bandH * 0.35, 18);
-    const minR = 4;
-    const r = min(maxR, minR + density * 2.5);
-    
     const cy = bandY + bandH / 2;
     
-    const dist = sqrt((mouseX - x)**2 + (mouseY - cy)**2);
-    const isHover = dist < r + 4;
+    const density = items.length;
+    const maxR = min(bandH * 0.35, 20);
+    const minR = 3;
+    const r = lerp(maxR, minR, 1 / sqrt(density));
     
-    if (isHover) {
-      hovered = items[0];
-      fill(categoryColors[cat]);
-      drawingContext.shadowColor = categoryColors[cat];
-      drawingContext.shadowBlur = 20;
-    } else if (playMode && abs(yr - playYear) < 1.5) {
-      fill(categoryColors[cat]);
-      drawingContext.shadowColor = categoryColors[cat];
-      drawingContext.shadowBlur = 15;
-    } else {
-      const c = color(categoryColors[cat]);
-      fill(red(c), green(c), blue(c), 180);
-      drawingContext.shadowBlur = 0;
-    }
+    items.forEach((item, idx) => {
+      const maxDist = min(bandH * 0.3, 22);
+      const angle = (idx / items.length) * TWO_PI - HALF_PI;
+      const dist = (items.length > 1) ? (idx / (items.length - 1)) * maxDist : 0;
+      const ix = x + cos(angle) * dist;
+      const iy = cy + sin(angle) * dist;
+      
+      const distMouse = sqrt((mouseX - ix)**2 + (mouseY - iy)**2);
+      const isHover = distMouse < r + 3;
+      
+      if (isHover) hovered = item;
+      
+      let baseCol = categoryColors[cat];
+      
+      if (item.posthumous) {
+        // Posthumous: dimmed base + bright ring
+        const c = color(baseCol);
+        const dimmed = color(red(c)*0.55, green(c)*0.55, blue(c)*0.55);
+        if (isHover) {
+          fill(color(red(c)*0.7, green(c)*0.7, blue(c)*0.7));
+          drawingContext.shadowColor = '#ffcd75';
+          drawingContext.shadowBlur = 20;
+        } else if (playMode && abs(yr - playYear) < 1.5) {
+          fill(dimmed);
+          drawingContext.shadowColor = '#ffcd75';
+          drawingContext.shadowBlur = 12;
+        } else {
+          fill(dimmed);
+          drawingContext.shadowBlur = 0;
+        }
+        noStroke();
+        ellipse(ix, iy, r * 2, r * 2);
+        // Bright ring
+        stroke(255, 200, 100, isHover ? 200 : 90);
+        strokeWeight(isHover ? 2.5 : 1.5);
+        noFill();
+        ellipse(ix, iy, r * 2 + 3, r * 2 + 3);
+        noStroke();
+      } else {
+        if (isHover) {
+          fill(baseCol);
+          drawingContext.shadowColor = baseCol;
+          drawingContext.shadowBlur = 20;
+        } else if (playMode && abs(yr - playYear) < 1.5) {
+          fill(baseCol);
+          drawingContext.shadowColor = baseCol;
+          drawingContext.shadowBlur = 14;
+        } else {
+          const c = color(baseCol);
+          fill(red(c), green(c), blue(c), 200);
+          drawingContext.shadowBlur = 0;
+        }
+        noStroke();
+        ellipse(ix, iy, r * 2, r * 2);
+      }
+    });
     
-    noStroke();
-    ellipse(x, cy, r * 2, r * 2);
-    
-    if (items.length > 1 && !playMode) {
-      items.forEach((item, idx) => {
-        const angle = (idx / items.length) * TWO_PI - HALF_PI;
-        const lineLen = r + 6 + idx * 3;
-        stroke(categoryColors[cat]);
-        strokeWeight(1);
-        line(x, cy, x + cos(angle)*lineLen, cy + sin(angle)*lineLen);
-      });
-    }
-    
-    if (density > 1 && r > 8) {
+    if (density > 1) {
       fill(255);
-      textSize(9);
+      textSize(density > 9 ? 8 : 9);
       textAlign(CENTER, CENTER);
       text(density, x, cy);
+    }
+    
+    // Cluster tooltip
+    if (hovered && hovered.year === yr && hovered.category === cat) {
+      const clusterDist = sqrt((mouseX - x)**2 + (mouseY - cy)**2);
+      if (clusterDist < r * 3) {
+        const listW = min(260, 180 + density * 8);
+        const itemCount = items.length;
+        fill(18, 18, 28, 235);
+        stroke(255, 255, 255, 12);
+        strokeWeight(1);
+        const lx = constrain(x + 18, margin.left + 10, width - listW - 20);
+        const ly = constrain(cy - 30, margin.top + 10, height - margin.bottom - 80);
+        rect(lx, ly, listW, itemCount * 15 + 26, 8);
+        
+        fill(180);
+        textSize(9);
+        textAlign(LEFT, TOP);
+        text(`${itemCount} работ · ${yr}`, lx + 8, ly + 6);
+        
+        const visible = items.slice(0, 8);
+        visible.forEach((item, i) => {
+          fill(item.posthumous ? color(255, 200, 100, 200) : color(220, 220, 230, 220));
+          textSize(8);
+          const label = item.title.substring(0, 28) + (item.title.length > 28 ? '…' : '');
+          text(label, lx + 8, ly + 20 + i * 14);
+        });
+        if (itemCount > 8) {
+          fill(120);
+          text(`+${itemCount - 8} ещё`, lx + 8, ly + 20 + 8 * 14);
+        }
+        noStroke();
+      }
     }
   });
   
   drawingContext.shadowBlur = 0;
   
+  // Play cursor
   if (playMode) {
     const px = xForYear(playYear);
-    stroke(255, 255, 255, 80);
+    stroke(255, 255, 255, 60);
     strokeWeight(1);
     line(px, margin.top, px, height - margin.bottom);
     fill(255);
-    textSize(12);
+    textSize(11);
     textAlign(CENTER, BOTTOM);
-    text(Math.floor(playYear), px, margin.top - 8);
+    text(Math.floor(playYear), px, margin.top - 6);
   }
   
   if (selectedYear && !playMode) {
@@ -324,15 +439,24 @@ function updateTooltip() {
     if (hovered.lang) meta.push(`Язык: ${hovered.lang}`);
     if (hovered.journal) meta.push(`Издание: ${hovered.journal}`);
     tt.querySelector('.tooltip-meta').textContent = meta.join(' · ');
+    
     const catEl = tt.querySelector('.tooltip-cat');
     catEl.textContent = hovered.category;
-    catEl.style.background = categoryColors[hovered.category] + '30';
+    catEl.style.background = categoryColors[hovered.category] + '35';
     catEl.style.color = categoryColors[hovered.category];
     
-    let tx = mouseX + 20;
-    let ty = mouseY + 20;
-    if (tx + 340 > width) tx = mouseX - 340;
-    if (ty + 150 > height) ty = mouseY - 150;
+    const postEl = tt.querySelector('.tooltip-posthumous');
+    if (hovered.posthumous) {
+      postEl.textContent = 'постхумное издание';
+      postEl.style.display = 'inline-block';
+    } else {
+      postEl.style.display = 'none';
+    }
+    
+    let tx = mouseX + 18;
+    let ty = mouseY + 18;
+    if (tx + 360 > width) tx = mouseX - 360;
+    if (ty + 160 > height) ty = mouseY - 160;
     tt.style.left = tx + 'px';
     tt.style.top = ty + 'px';
   } else {
@@ -343,7 +467,6 @@ function updateTooltip() {
 function mousePressed() {
   isDragging = true;
   lastMouseX = mouseX;
-  
   if (hovered) {
     selectedYear = hovered.year;
     playMode = false;
@@ -354,8 +477,7 @@ function mouseDragged() {
   if (isDragging) {
     panX += mouseX - lastMouseX;
     lastMouseX = mouseX;
-    
-    const minPan = -(1951 - 1908) * (width - 100) / (1951 - 1908) * zoom + (width - 100);
+    const minPan = -(2030 - 1905) * (width - 100) / (2030 - 1905) * zoom + (width - 100);
     panX = constrain(panX, minPan, 0);
   }
 }
@@ -366,7 +488,7 @@ function mouseReleased() {
 
 function mouseWheel(e) {
   const z = zoom * (e.delta > 0 ? 0.9 : 1.1);
-  zoom = constrain(z, 0.5, 10);
+  zoom = constrain(z, 0.3, 12);
   return false;
 }
 
